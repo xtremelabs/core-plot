@@ -1,0 +1,1195 @@
+TCPTestApp-iPhone
+v7
+r0
+t307301177.252372
+cCheck dependencies
+cProcessInfoPlistFile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/Info.plist Info.plist
+cCompileXIB /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/MainWindow.xib
+cCompileXIB /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib
+cCompileXIB /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/ScatterPlot.xib
+cCpResource build/Debug-iphonesimulator/CPTestApp-iPhone.app/CorePlotIcon.png CorePlotIcon.png
+cCompileXIB /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib
+cCpResource build/Debug-iphonesimulator/CPTestApp-iPhone.app/16-line-chart.png GlyphishIcons/16-line-chart.png
+cCpResource build/Debug-iphonesimulator/CPTestApp-iPhone.app/17-bar-chart.png GlyphishIcons/17-bar-chart.png
+cCpResource build/Debug-iphonesimulator/CPTestApp-iPhone.app/62-contrast.png GlyphishIcons/62-contrast.png
+cProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch.gch CPTestApp_iPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/main.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestApp_iPhoneAppDelegate.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestApp_iPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppBarChartController.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppScatterPlotController.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppPieChartController.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/TestXYTheme.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A505200000000000000C4
+t1280987218
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a
+c000000004CA0D3B800000000001E73C0
+t1285608376
+s1995712
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAnimation.h
+c000000004CA0D3B2000000000000054C
+t1285608370
+s1356
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAnimationKeyFrame.h
+c000000004CA0D3B200000000000001B6
+t1285608370
+s438
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAnimationTransition.h
+c000000004CA0D3B20000000000000461
+t1285608370
+s1121
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAnnotation.h
+c000000004CA0D3B2000000000000037D
+t1285608370
+s893
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAnnotationHostLayer.h
+c000000004CA0D3B20000000000000151
+t1285608370
+s337
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxis.h
+c000000004CA0D3B20000000000001BFB
+t1285608370
+s7163
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxisLabel.h
+c000000004CA0D3B2000000000000040D
+t1285608370
+s1037
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxisLabelGroup.h
+c000000004CA0D3B20000000000000068
+t1285608370
+s104
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxisSet.h
+c000000004CA0D3B20000000000000144
+t1285608370
+s324
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxisTitle.h
+c000000004CA0D3B2000000000000006D
+t1285608370
+s109
+i<Foundation/Foundation.h>
+i"CPAxisLabel.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPBarPlot.h
+c000000004CA0D3B20000000000000CCD
+t1285608370
+s3277
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPBorderedLayer.h
+c000000004CA0D3B2000000000000015B
+t1285608370
+s347
+i<Foundation/Foundation.h>
+i"CPAnnotationHostLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPColor.h
+c000000004CA0D3B20000000000000439
+t1285608370
+s1081
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPColorSpace.h
+c000000004CA0D3B20000000000000141
+t1285608370
+s321
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPConstrainedPosition.h
+c000000004CA0D3B2000000000000031A
+t1285608370
+s794
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPDarkGradientTheme.h
+c000000004CA0D3B2000000000000006F
+t1285608370
+s111
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPDefinitions.h
+c000000004CA0D3B20000000000000E32
+t1285608370
+s3634
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPExceptions.h
+c000000004CA0D3B200000000000000E1
+t1285608370
+s225
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPFill.h
+c000000004CA0D3B20000000000000346
+t1285608370
+s838
+i<QuartzCore/QuartzCore.h>
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPGradient.h
+c000000004CA0D3B20000000000000B97
+t1285608370
+s2967
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPGraph.h
+c000000004CA0D3B20000000000000B1F
+t1285608370
+s2847
+i"CPBorderedLayer.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPGridLines.h
+c000000004CA0D3B2000000000000010A
+t1285608370
+s266
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPImage.h
+c000000004CA0D3B200000000000002AA
+t1285608370
+s682
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLayer.h
+c000000004CA0D3B200000000000008CF
+t1285608370
+s2255
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i"CPResponder.h"
+i"CPPlatformSpecificDefines.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLayerAnnotation.h
+c000000004CA0D3B200000000000001F1
+t1285608370
+s497
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+i"CPConstrainedPosition.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLayerHostingView.h
+c000000004CA0D3B200000000000000BE
+t1285608370
+s190
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLayoutManager.h
+c000000004CA0D3B200000000000006B2
+t1285608370
+s1714
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLimitBand.h
+c000000004CA0D3B200000000000001C3
+t1285608370
+s451
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLineStyle.h
+c000000004CA0D3B2000000000000040E
+t1285608370
+s1038
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPMutableNumericData+TypeConversion.h
+c000000004CA0D3B200000000000002BD
+t1285608370
+s701
+i<Foundation/Foundation.h>
+i"CPMutableNumericData.h"
+i"CPNumericDataType.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPMutableNumericData.h
+c000000004CA0D3B20000000000000336
+t1285608370
+s822
+i<Foundation/Foundation.h>
+i"CPNumericDataType.h"
+i"CPNumericData.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPNumericData+TypeConversion.h
+c000000004CA0D3B20000000000000369
+t1285608370
+s873
+i<Foundation/Foundation.h>
+i"CPNumericData.h"
+i"CPNumericDataType.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPNumericData.h
+c000000004CA0D3B2000000000000088E
+t1285608370
+s2190
+i<Foundation/Foundation.h>
+i"CPNumericDataType.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPNumericDataType.h
+c000000004CA0D3B2000000000000049A
+t1285608370
+s1178
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPathExtensions.h
+c000000004CA0D3B200000000000000E7
+t1285608370
+s231
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPieChart.h
+c000000004CA0D3B20000000000000C5C
+t1285608370
+s3164
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlainBlackTheme.h
+c000000004CA0D3B2000000000000006E
+t1285608370
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlainWhiteTheme.h
+c000000004CA0D3B2000000000000006E
+t1285608370
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlatformSpecificCategories.h
+c000000004CA0D3B2000000000000039E
+t1285608370
+s926
+i<UIKit/UIKit.h>
+i"CPColor.h"
+i"CPLayer.h"
+i"CPPlatformSpecificDefines.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlatformSpecificDefines.h
+c000000004CA0D3B2000000000000005B
+t1285608370
+s91
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlatformSpecificFunctions.h
+c000000004CA0D3B200000000000000B6
+t1285608370
+s182
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlot.h
+c000000004CA0D3B20000000000001B05
+t1285608370
+s6917
+i"CPDefinitions.h"
+i"CPPlotRange.h"
+i"CPAnnotationHostLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotArea.h
+c000000004CA0D3B20000000000000641
+t1285608370
+s1601
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPGraph.h"
+i"CPAnnotationHostLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotAreaFrame.h
+c000000004CA0D3B2000000000000016F
+t1285608370
+s367
+i"CPBorderedLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotGroup.h
+c000000004CA0D3B20000000000000142
+t1285608370
+s322
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotRange.h
+c000000004CA0D3B200000000000008A0
+t1285608370
+s2208
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotSpace.h
+c000000004CA0D3B20000000000000FE7
+t1285608370
+s4071
+i"CPDefinitions.h"
+i"CPResponder.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotSpaceAnnotation.h
+c000000004CA0D3B20000000000000197
+t1285608370
+s407
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotSymbol.h
+c000000004CA0D3B20000000000000822
+t1285608370
+s2082
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPolarPlotSpace.h
+c000000004CA0D3B20000000000000075
+t1285608370
+s117
+i<Foundation/Foundation.h>
+i"CPPlotSpace.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPResponder.h
+c000000004CA0D3B20000000000000535
+t1285608370
+s1333
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPScatterPlot.h
+c000000004CA0D3B20000000000000D71
+t1285608370
+s3441
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPSlateTheme.h
+c000000004CA0D3B20000000000000068
+t1285608370
+s104
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPStocksTheme.h
+c000000004CA0D3B2000000000000006A
+t1285608370
+s106
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTextLayer.h
+c000000004CA0D3B20000000000000224
+t1285608370
+s548
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTextStyle.h
+c000000004CA0D3B2000000000000034B
+t1285608370
+s843
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTheme.h
+c000000004CA0D3B200000000000004B0
+t1285608370
+s1200
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTimeFormatter.h
+c000000004CA0D3B20000000000000175
+t1285608370
+s373
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTradingRangePlot.h
+c000000004CA0D3B20000000000000A07
+t1285608370
+s2567
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPUtilities.h
+c000000004CA0D3B20000000000000CF6
+t1285608370
+s3318
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYAxis.h
+c000000004CA0D3B2000000000000020E
+t1285608370
+s526
+i<Foundation/Foundation.h>
+i"CPAxis.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYAxisSet.h
+c000000004CA0D3B200000000000000EB
+t1285608370
+s235
+i<Foundation/Foundation.h>
+i"CPAxisSet.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYGraph.h
+c000000004CA0D3B20000000000000154
+t1285608370
+s340
+i<Foundation/Foundation.h>
+i"CPGraph.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYPlotSpace.h
+c000000004CA0D3B2000000000000030F
+t1285608370
+s783
+i"CPPlotSpace.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYTheme.h
+c000000004CA0D3B20000000000000062
+t1285608370
+s98
+i<Foundation/Foundation.h>
+i"CPTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphonesimulator/usr/local/include/CorePlot-CocoaTouch.h
+c000000004CA0D3B200000000000006ED
+t1285608370
+s1773
+i"CPAnimation.h"
+i"CPAnimationKeyFrame.h"
+i"CPAnimationTransition.h"
+i"CPAnnotation.h"
+i"CPAnnotationHostLayer.h"
+i"CPAxis.h"
+i"CPAxisLabel.h"
+i"CPAxisLabelGroup.h"
+i"CPAxisSet.h"
+i"CPAxisTitle.h"
+i"CPBarPlot.h"
+i"CPBorderedLayer.h"
+i"CPColor.h"
+i"CPColorSpace.h"
+i"CPConstrainedPosition.h"
+i"CPDarkGradientTheme.h"
+i"CPDefinitions.h"
+i"CPExceptions.h"
+i"CPFill.h"
+i"CPGradient.h"
+i"CPGraph.h"
+i"CPGridLines.h"
+i"CPImage.h"
+i"CPLayer.h"
+i"CPLayerAnnotation.h"
+i"CPLayerHostingView.h"
+i"CPLayoutManager.h"
+i"CPLimitBand.h"
+i"CPLineStyle.h"
+i"CPMutableNumericData.h"
+i"CPMutableNumericData+TypeConversion.h"
+i"CPNumericData.h"
+i"CPNumericData+TypeConversion.h"
+i"CPNumericDataType.h"
+i"CPPieChart.h"
+i"CPPlainBlackTheme.h"
+i"CPPlainWhiteTheme.h"
+i"CPPlatformSpecificDefines.h"
+i"CPPlatformSpecificFunctions.h"
+i"CPPlatformSpecificCategories.h"
+i"CPPathExtensions.h"
+i"CPPlot.h"
+i"CPPlotArea.h"
+i"CPPlotAreaFrame.h"
+i"CPPlotGroup.h"
+i"CPPlotRange.h"
+i"CPPlotSpace.h"
+i"CPPlotSpaceAnnotation.h"
+i"CPPlotSymbol.h"
+i"CPPolarPlotSpace.h"
+i"CPResponder.h"
+i"CPScatterPlot.h"
+i"CPSlateTheme.h"
+i"CPSlateTheme.h"
+i"CPStocksTheme.h"
+i"CPTextLayer.h"
+i"CPTextStyle.h"
+i"CPTheme.h"
+i"CPTimeFormatter.h"
+i"CPTradingRangePlot.h"
+i"CPUtilities.h"
+i"CPXYAxis.h"
+i"CPXYAxisSet.h"
+i"CPXYGraph.h"
+i"CPXYPlotSpace.h"
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib
+c000000004CA0CAB400000000000018C1
+t1285606068
+s6337
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/CPTestApp_iPhone_Prefix.pch
+c000000004CA0CAB400000000000000C9
+t1285606068
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h
+c000000004CA0CAB400000000000000E5
+t1285606068
+s229
+i<UIKit/UIKit.h>
+i"CorePlot-CocoaTouch.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m
+c000000004CA0CAB40000000000001306
+t1285606068
+s4870
+i"CPTestAppBarChartController.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h
+c000000004CA0CAB4000000000000011B
+t1285606068
+s283
+i<UIKit/UIKit.h>
+i"CorePlot-CocoaTouch.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m
+c000000004CA0CAB40000000000000A5B
+t1285606068
+s2651
+i"CPTestAppPieChartController.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h
+c000000004CA0CAB40000000000000184
+t1285606068
+s388
+i<UIKit/UIKit.h>
+i"CorePlot-CocoaTouch.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m
+c000000004CA0CAB4000000000000137F
+t1285606068
+s4991
+i"CPTestAppScatterPlotController.h"
+i"TestXYTheme.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestApp_iPhoneAppDelegate.h
+c000000004CA0CAB4000000000000023A
+t1285606068
+s570
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestApp_iPhoneAppDelegate.m
+c000000004CA0CAB4000000000000039E
+t1285606068
+s926
+i"CPTestApp_iPhoneAppDelegate.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h
+c000000004CA0CAB40000000000000102
+t1285606068
+s258
+i<Foundation/Foundation.h>
+i"CorePlot-CocoaTouch.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m
+c000000004CA0CAB40000000000000DAB
+t1285606068
+s3499
+i"TestXYTheme.h"
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/CorePlotIcon.png
+c000000004CA0CAB400000000000013FF
+t1285606068
+s5119
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/16-line-chart.png
+c000000004CA0CAB40000000000000226
+t1285606068
+s550
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/17-bar-chart.png
+c000000004CA0CAB400000000000000B5
+t1285606068
+s181
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/62-contrast.png
+c000000004CA0CAB400000000000001A8
+t1285606068
+s424
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/MainWindow.xib
+c000000004CA0CAB40000000000006AB6
+t1285606068
+s27318
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib
+c000000004CA0CAB40000000000003F91
+t1285606068
+s16273
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/ScatterPlot.xib
+c000000004CA0CAB4000000000000411B
+t1285606068
+s16667
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestApp-iPhone.LinkFileList
+c000000004CA0D3B80000000000000462
+t1285608376
+s1122
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppBarChartController.o
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppPieChartController.o
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppScatterPlotController.o
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestApp_iPhoneAppDelegate.o
+t1285608377
+s49008
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/TestXYTheme.o
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/main.o
+t1285608377
+s6364
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app
+t1285608376
+s408
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app.dSYM
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/16-line-chart.png
+t1285608376
+s550
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/17-bar-chart.png
+t1285608376
+s181
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/62-contrast.png
+t1285608376
+s424
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/BarChart.nib
+t1285608376
+s852
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/CPTestApp-iPhone
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/CorePlotIcon.png
+t1285608376
+s5119
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/Info.plist
+t1285608376
+s665
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/MainWindow.nib
+t1285608376
+s2120
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/PieChart.nib
+t1285608376
+s852
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/PkgInfo
+t1285608376
+s8
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/ScatterPlot.nib
+t1285608376
+s852
+
+N/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/main.m
+c000000004CA0CAB40000000000000134
+t1285606068
+s308
+i<UIKit/UIKit.h>
+
+N/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-czekomwkexljphcnwibrpcywtkao/CPTestApp_iPhone_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch.gch
+t1285608377
+s15232016
+
+NInfo.plist
+c000000004CA0CAB40000000000000382
+t1285606068
+s898
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307301176#307301176#0(0"0(0#1#0"8615163552#0"0#
+
+CCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppBarChartController.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307301177.136784
+e307301177.203173
+r0
+xCompileC
+xbuild/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppBarChartController.o
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:6:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h:7:32: error: CorePlot-CocoaTouch.h: No such file or directory
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:6:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h:9: error: cannot find protocol declaration for 'CPPlotDataSource'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h:11: error: expected specifier-qualifier-list before 'CPXYGraph'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m: In function '-[CPTestAppBarChartController viewDidLoad]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:24: error: 'barChart' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:24: error: (Each undeclared identifier is reported only once
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:24: error: for each function it appears in.)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:24: error: 'CPXYGraph' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:25: error: 'CPTheme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:25: error: 'theme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:25: error: 'kCPDarkGradientTheme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:27: error: 'CPLayerHostingView' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:27: error: 'hostingView' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:27: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:37: error: 'CPXYPlotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:37: error: 'plotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:37: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:38: error: 'CPPlotRange' undeclared (first use in this function)
+occ1obj: warnings being treated as errors
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:38: warning: implicit declaration of function 'CPDecimalFromFloat'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:42: error: 'CPXYAxisSet' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:42: error: 'axisSet' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:42: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:43: error: 'CPXYAxis' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:43: error: 'x' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:47: warning: implicit declaration of function 'CPDecimalFromString'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:55: error: 'CPAxisLabelingPolicyNone' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:61: error: 'CPAxisLabel' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:61: error: 'newLabel' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:71: error: 'y' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:82: error: 'CPBarPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:82: error: 'barPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:82: error: 'CPColor' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m: At top level:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:111: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:115: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m: In function '-[CPTestAppBarChartController numberForPlot:field:recordIndex:]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:118: error: 'CPBarPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:120: error: 'CPBarPlotFieldBarLocation' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:123: error: 'CPBarPlotFieldBarLength' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:125: error: request for member 'identifier' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m: At top level:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:134: error: expected ')' before 'CPFill'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:134: error: expected ')' before 'CPBarPlot'
+lSLF07#2@114"Compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307301177#307301177#0(7462"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:6:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h:7:32: error: CorePlot-CocoaTouch.h: No such file or directoryIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:6:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h:9: error: cannot find protocol declaration for 'CPPlotDataSource'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h:11: error: expected specifier-qualifier-list before 'CPXYGraph'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m: In function '-[CPTestAppBarChartController viewDidLoad]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:24: error: 'barChart' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:24: error: (Each undeclared identifier is reported only once/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:24: error: for each function it appears in.)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:24: error: 'CPXYGraph' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:25: error: 'CPTheme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:25: error: 'theme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:25: error: 'kCPDarkGradientTheme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:27: error: 'CPLayerHostingView' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:27: error: 'hostingView' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:27: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:37: error: 'CPXYPlotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:37: error: 'plotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:37: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:38: error: 'CPPlotRange' undeclared (first use in this function)cc1obj: warnings being treated as errors/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:38: warning: implicit declaration of function 'CPDecimalFromFloat'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:42: error: 'CPXYAxisSet' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:42: error: 'axisSet' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:42: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:43: error: 'CPXYAxis' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:43: error: 'x' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:47: warning: implicit declaration of function 'CPDecimalFromString'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:55: error: 'CPAxisLabelingPolicyNone' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:61: error: 'CPAxisLabel' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:61: error: 'newLabel' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:71: error: 'y' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:82: error: 'CPBarPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:82: error: 'barPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:82: error: 'CPColor' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m: At top level:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:111: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:115: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m: In function '-[CPTestAppBarChartController numberForPlot:field:recordIndex:]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:118: error: 'CPBarPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:120: error: 'CPBarPlotFieldBarLocation' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:123: error: 'CPBarPlotFieldBarLength' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:125: error: request for member 'identifier' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m: At top level:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:134: error: expected ')' before 'CPFill'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m:134: error: expected ')' before 'CPBarPlot'39(4@48"CorePlot-CocoaTouch.h: No such file or directory307301177#132#169#2(7@128"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#6#0#6#0#0"0(13@158"CorePlot-CocoaTouch.h: No such file or directory in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307298868#7#0#7#0#0"0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307298868#7#0#7#0#28"*: No such file or directory0(4@55"Cannot find protocol declaration for 'CPPlotDataSource'307301177#433#173#2(7@128"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#6#0#6#0#0"0(13@165"Cannot find protocol declaration for 'CPPlotDataSource' in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307298868#9#0#9#0#0"0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307298868#9#0#9#0#0"0(4@52"Expected specifier-qualifier-list before 'CPXYGraph'307301177#606#171#2(7@128"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#6#0#6#0#0"0(13@162"Expected specifier-qualifier-list before 'CPXYGraph' in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307298868#11#0#11#0#0"0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.h307298868#11#0#11#0#19"expected * before *0(4@50"'barChart' undeclared (first use in this function)307301177#943#169#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#24#0#24#0#43"'*' undeclared (first use in this function)0(4@51"'CPXYGraph' undeclared (first use in this function)307301177#1432#170#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#24#0#24#0#43"'*' undeclared (first use in this function)0(4@49"'CPTheme' undeclared (first use in this function)307301177#1602#168#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#25#0#25#0#43"'*' undeclared (first use in this function)0(4@47"'theme' undeclared (first use in this function)307301177#1770#166#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#25#0#25#0#43"'*' undeclared (first use in this function)0(4@62"'kCPDarkGradientTheme' undeclared (first use in this function)307301177#1936#181#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#25#0#25#0#43"'*' undeclared (first use in this function)0(4@60"'CPLayerHostingView' undeclared (first use in this function)307301177#2117#179#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#27#0#27#0#43"'*' undeclared (first use in this function)0(4@53"'hostingView' undeclared (first use in this function)307301177#2296#172#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#27#0#27#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301177#2468#155#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#27#0#27#0#19"expected * before *0(4@55"'CPXYPlotSpace' undeclared (first use in this function)307301177#2623#174#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#37#0#37#0#43"'*' undeclared (first use in this function)0(4@51"'plotSpace' undeclared (first use in this function)307301177#2797#170#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#37#0#37#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301177#2967#155#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#37#0#37#0#19"expected * before *0(4@53"'CPPlotRange' undeclared (first use in this function)307301177#3122#172#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#38#0#38#0#43"'*' undeclared (first use in this function)0(4@53"Implicit declaration of function 'CPDecimalFromFloat'307301177#3335#174#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#38#0#38#0#36"implicit declaration of function '*'0(4@53"'CPXYAxisSet' undeclared (first use in this function)307301177#3509#172#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#42#0#42#0#43"'*' undeclared (first use in this function)0(4@49"'axisSet' undeclared (first use in this function)307301177#3681#168#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#42#0#42#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301177#3849#155#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#42#0#42#0#19"expected * before *0(4@50"'CPXYAxis' undeclared (first use in this function)307301177#4004#169#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(4@43"'x' undeclared (first use in this function)307301177#4173#162#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(4@54"Implicit declaration of function 'CPDecimalFromString'307301177#4335#175#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#47#0#47#0#36"implicit declaration of function '*'0(4@66"'CPAxisLabelingPolicyNone' undeclared (first use in this function)307301177#4510#185#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#55#0#55#0#43"'*' undeclared (first use in this function)0(4@53"'CPAxisLabel' undeclared (first use in this function)307301177#4695#172#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#61#0#61#0#43"'*' undeclared (first use in this function)0(4@50"'newLabel' undeclared (first use in this function)307301177#4867#169#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#61#0#61#0#43"'*' undeclared (first use in this function)0(4@43"'y' undeclared (first use in this function)307301177#5036#162#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#71#0#71#0#43"'*' undeclared (first use in this function)0(4@51"'CPBarPlot' undeclared (first use in this function)307301177#5198#170#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#82#0#82#0#43"'*' undeclared (first use in this function)0(4@49"'barPlot' undeclared (first use in this function)307301177#5368#168#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#82#0#82#0#43"'*' undeclared (first use in this function)0(4@49"'CPColor' undeclared (first use in this function)307301177#5536#168#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#82#0#82#0#43"'*' undeclared (first use in this function)0(23@13"At top level:307301177#5704#122#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#0#0#0#0#0"0(4@28"Expected ')' before 'CPPlot'307301177#5826#148#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#111#0#111#0#19"expected * before *0(4@28"Expected ')' before 'CPPlot'307301177#5974#148#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#115#0#115#0#19"expected * before *0(4@51"'CPBarPlot' undeclared (first use in this function)307301177#6309#171#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#118#0#118#0#43"'*' undeclared (first use in this function)0(4@67"'CPBarPlotFieldBarLocation' undeclared (first use in this function)307301177#6480#187#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#120#0#120#0#43"'*' undeclared (first use in this function)0(4@65"'CPBarPlotFieldBarLength' undeclared (first use in this function)307301177#6667#185#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#123#0#123#0#43"'*' undeclared (first use in this function)0(4@69"Request for member 'identifier' in something not a structure or union307301177#6852#189#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#125#0#125#0#0"0(23@13"At top level:307301177#7041#122#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#0#0#0#0#0"0(4@28"Expected ')' before 'CPFill'307301177#7163#148#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#134#0#134#0#19"expected * before *0(4@31"Expected ')' before 'CPBarPlot'307301177#7311#151#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m307298868#134#0#134#0#19"expected * before *0(0#0#106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m8617123200#2591"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/include -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/../../build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources/i386 -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch -c /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppBarChartController.m -o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppBarChartController.o1#
+
+CCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppPieChartController.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307301177.198823
+e307301177.252314
+r0
+xCompileC
+xbuild/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppPieChartController.o
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:1:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h:2:32: error: CorePlot-CocoaTouch.h: No such file or directory
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:1:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h:4: error: cannot find protocol declaration for 'CPPieChartDataSource'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h:7: error: expected specifier-qualifier-list before 'CPXYGraph'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m: In function '-[CPTestAppPieChartController didRotateFromInterfaceOrientation:]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: 'CPPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: (Each undeclared identifier is reported only once
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: for each function it appears in.)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: 'piePlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: 'pieChart' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:16: error: 'CPPieChart' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:16: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m: In function '-[CPTestAppPieChartController viewDidLoad]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:33: error: 'pieChart' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:33: error: 'CPXYGraph' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:34: error: 'CPTheme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:34: error: 'theme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:34: error: 'kCPDarkGradientTheme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:36: error: 'CPLayerHostingView' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:36: error: 'hostingView' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:36: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:47: error: 'CPPieChart' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:47: error: 'piePlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:52: error: 'CPPieDirectionCounterClockwise' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m: At top level:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:74: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:79: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m: In function '-[CPTestAppPieChartController numberForPlot:field:recordIndex:]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:83: error: 'CPPieChartFieldSliceWidth' undeclared (first use in this function)
+occ1obj: warnings being treated as errors
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:89: warning: control reaches end of non-void function
+lSLF07#2@114"Compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307301177#307301177#0(5166"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:1:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h:2:32: error: CorePlot-CocoaTouch.h: No such file or directoryIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:1:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h:4: error: cannot find protocol declaration for 'CPPieChartDataSource'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h:7: error: expected specifier-qualifier-list before 'CPXYGraph'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m: In function '-[CPTestAppPieChartController didRotateFromInterfaceOrientation:]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: 'CPPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: (Each undeclared identifier is reported only once/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: for each function it appears in.)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: 'piePlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:14: error: 'pieChart' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:16: error: 'CPPieChart' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:16: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m: In function '-[CPTestAppPieChartController viewDidLoad]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:33: error: 'pieChart' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:33: error: 'CPXYGraph' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:34: error: 'CPTheme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:34: error: 'theme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:34: error: 'kCPDarkGradientTheme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:36: error: 'CPLayerHostingView' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:36: error: 'hostingView' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:36: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:47: error: 'CPPieChart' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:47: error: 'piePlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:52: error: 'CPPieDirectionCounterClockwise' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m: At top level:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:74: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:79: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m: In function '-[CPTestAppPieChartController numberForPlot:field:recordIndex:]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:83: error: 'CPPieChartFieldSliceWidth' undeclared (first use in this function)cc1obj: warnings being treated as errors/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m:89: warning: control reaches end of non-void function24(4@48"CorePlot-CocoaTouch.h: No such file or directory307301177#132#169#2(7@128"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#1#0#1#0#0"0(13@158"CorePlot-CocoaTouch.h: No such file or directory in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307298868#2#0#2#0#0"0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307298868#2#0#2#0#28"*: No such file or directory0(4@59"Cannot find protocol declaration for 'CPPieChartDataSource'307301177#433#177#2(7@128"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#1#0#1#0#0"0(13@169"Cannot find protocol declaration for 'CPPieChartDataSource' in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307298868#4#0#4#0#0"0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307298868#4#0#4#0#0"0(4@52"Expected specifier-qualifier-list before 'CPXYGraph'307301177#610#170#2(7@128"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#1#0#1#0#0"0(13@162"Expected specifier-qualifier-list before 'CPXYGraph' in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307301177#18446744073709551615#0#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307298868#7#0#7#0#0"0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.h307298868#7#0#7#0#19"expected * before *0(4@48"'CPPlot' undeclared (first use in this function)307301177#969#167#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#14#0#14#0#43"'*' undeclared (first use in this function)0(4@49"'piePlot' undeclared (first use in this function)307301177#1456#168#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#14#0#14#0#43"'*' undeclared (first use in this function)0(4@50"'pieChart' undeclared (first use in this function)307301177#1624#169#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#14#0#14#0#43"'*' undeclared (first use in this function)0(4@52"'CPPieChart' undeclared (first use in this function)307301177#1793#171#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#16#0#16#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301177#1964#155#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#16#0#16#0#19"expected * before *0(4@50"'pieChart' undeclared (first use in this function)307301177#2285#169#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#33#0#33#0#43"'*' undeclared (first use in this function)0(4@51"'CPXYGraph' undeclared (first use in this function)307301177#2454#170#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#33#0#33#0#43"'*' undeclared (first use in this function)0(4@49"'CPTheme' undeclared (first use in this function)307301177#2624#168#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#34#0#34#0#43"'*' undeclared (first use in this function)0(4@47"'theme' undeclared (first use in this function)307301177#2792#166#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#34#0#34#0#43"'*' undeclared (first use in this function)0(4@62"'kCPDarkGradientTheme' undeclared (first use in this function)307301177#2958#181#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#34#0#34#0#43"'*' undeclared (first use in this function)0(4@60"'CPLayerHostingView' undeclared (first use in this function)307301177#3139#179#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#36#0#36#0#43"'*' undeclared (first use in this function)0(4@53"'hostingView' undeclared (first use in this function)307301177#3318#172#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#36#0#36#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301177#3490#155#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#36#0#36#0#19"expected * before *0(4@52"'CPPieChart' undeclared (first use in this function)307301177#3645#171#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#47#0#47#0#43"'*' undeclared (first use in this function)0(4@49"'piePlot' undeclared (first use in this function)307301177#3816#168#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#47#0#47#0#43"'*' undeclared (first use in this function)0(4@72"'CPPieDirectionCounterClockwise' undeclared (first use in this function)307301177#3984#191#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#52#0#52#0#43"'*' undeclared (first use in this function)0(23@13"At top level:307301177#4175#122#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#0#0#0#0#0"0(4@28"Expected ')' before 'CPPlot'307301177#4297#147#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#74#0#74#0#19"expected * before *0(4@28"Expected ')' before 'CPPlot'307301177#4444#147#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#79#0#79#0#19"expected * before *0(4@67"'CPPieChartFieldSliceWidth' undeclared (first use in this function)307301177#4778#186#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#83#0#83#0#43"'*' undeclared (first use in this function)0(4@40"Control reaches end of non-void function307301177#5005#161#0(6@106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m307298868#89#0#89#0#40"control reaches end of non-void function0(0#0#106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m8620626112#2591"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/include -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/../../build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources/i386 -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch -c /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppPieChartController.m -o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppPieChartController.o1#
+
+CCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppScatterPlotController.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307301177.137849
+e307301177.207637
+r0
+xCompileC
+xbuild/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppScatterPlotController.o
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:8:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h:9:32: error: CorePlot-CocoaTouch.h: No such file or directory
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:8:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h:13: error: cannot find protocol declaration for 'CPPlotDataSource'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h:15: error: expected specifier-qualifier-list before 'CPXYGraph'
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:9:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h:16: error: cannot find interface declaration for 'CPXYTheme', superclass of 'TestXYTheme'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController dealloc]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:29: error: 'graph' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:29: error: (Each undeclared identifier is reported only once
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:29: error: for each function it appears in.)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController viewDidLoad]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:38: error: 'graph' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:38: error: 'CPXYGraph' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: error: 'CPTheme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: error: 'theme' undeclared (first use in this function)
+occ1obj: warnings being treated as errors
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: warning: 'TestXYTheme' may not respond to '+alloc'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: warning: (Messages without a matching method signature
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: warning: will be assumed to return 'id' and accept
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: warning: '...' as arguments.)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:43: error: 'CPLayerHostingView' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:43: error: 'hostingView' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:43: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:47: error: 'CPXYPlotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:47: error: 'plotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:47: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:49: error: 'CPPlotRange' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:49: warning: implicit declaration of function 'CPDecimalFromFloat'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:53: error: 'CPScatterPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:53: error: 'boundLinePlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:56: error: 'CPColor' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:61: error: 'dataSourceLinePlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController reloadPlots]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:87: error: 'graph' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:88: error: 'CPPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:88: error: 'plot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:91: error: selector element does not have a valid object type
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController changePlotRange]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:97: error: 'CPXYPlotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:97: error: 'plotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:97: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:99: error: 'CPPlotRange' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: At top level:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:119: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:133: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController doublesForPlot:field:recordIndexRange:]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:135: warning: no '-identifier' method found
+lSLF07#2@117"Compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307301177#307301177#0(7882"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:8:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h:9:32: error: CorePlot-CocoaTouch.h: No such file or directoryIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:8:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h:13: error: cannot find protocol declaration for 'CPPlotDataSource'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h:15: error: expected specifier-qualifier-list before 'CPXYGraph'In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:9:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h:16: error: cannot find interface declaration for 'CPXYTheme', superclass of 'TestXYTheme'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController dealloc]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:29: error: 'graph' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:29: error: (Each undeclared identifier is reported only once/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:29: error: for each function it appears in.)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController viewDidLoad]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:38: error: 'graph' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:38: error: 'CPXYGraph' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: error: 'CPTheme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: error: 'theme' undeclared (first use in this function)cc1obj: warnings being treated as errors/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: warning: 'TestXYTheme' may not respond to '+alloc'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: warning: (Messages without a matching method signature/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: warning: will be assumed to return 'id' and accept/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:39: warning: '...' as arguments.)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:43: error: 'CPLayerHostingView' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:43: error: 'hostingView' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:43: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:47: error: 'CPXYPlotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:47: error: 'plotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:47: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:49: error: 'CPPlotRange' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:49: warning: implicit declaration of function 'CPDecimalFromFloat'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:53: error: 'CPScatterPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:53: error: 'boundLinePlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:56: error: 'CPColor' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:61: error: 'dataSourceLinePlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController reloadPlots]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:87: error: 'graph' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:88: error: 'CPPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:88: error: 'plot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:91: error: selector element does not have a valid object type/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController changePlotRange]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:97: error: 'CPXYPlotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:97: error: 'plotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:97: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:99: error: 'CPPlotRange' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: At top level:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:119: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:133: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m: In function '-[CPTestAppScatterPlotController doublesForPlot:field:recordIndexRange:]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m:135: warning: no '-identifier' method found35(4@48"CorePlot-CocoaTouch.h: No such file or directory307301177#135#172#2(7@131"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307301177#18446744073709551615#0#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#8#0#8#0#0"0(13@161"CorePlot-CocoaTouch.h: No such file or directory in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307301177#18446744073709551615#0#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307298868#9#0#9#0#0"0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307298868#9#0#9#0#28"*: No such file or directory0(4@55"Cannot find protocol declaration for 'CPPlotDataSource'307301177#442#177#2(7@131"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307301177#18446744073709551615#0#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#8#0#8#0#0"0(13@168"Cannot find protocol declaration for 'CPPlotDataSource' in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307301177#18446744073709551615#0#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307298868#13#0#13#0#0"0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307298868#13#0#13#0#0"0(4@52"Expected specifier-qualifier-list before 'CPXYGraph'307301177#619#174#2(7@131"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307301177#18446744073709551615#0#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#8#0#8#0#0"0(13@165"Expected specifier-qualifier-list before 'CPXYGraph' in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307301177#18446744073709551615#0#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307298868#15#0#15#0#0"0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.h307298868#15#0#15#0#19"expected * before *0(4@78"Cannot find interface declaration for 'CPXYTheme', superclass of 'TestXYTheme'307301177#928#181#2(7@131"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307301177#18446744073709551615#0#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#9#0#9#0#0"0(13@172"Cannot find interface declaration for 'CPXYTheme', superclass of 'TestXYTheme' in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307301177#18446744073709551615#0#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307298868#16#0#16#0#0"0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307298868#16#0#16#0#60"cannot find interface declaration for '*', superclass of '*'0(4@47"'graph' undeclared (first use in this function)307301177#1277#169#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#29#0#29#0#43"'*' undeclared (first use in this function)0(4@47"'graph' undeclared (first use in this function)307301177#1944#169#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#38#0#38#0#43"'*' undeclared (first use in this function)0(4@51"'CPXYGraph' undeclared (first use in this function)307301177#2113#173#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#38#0#38#0#43"'*' undeclared (first use in this function)0(4@49"'CPTheme' undeclared (first use in this function)307301177#2286#171#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#39#0#39#0#43"'*' undeclared (first use in this function)0(4@47"'theme' undeclared (first use in this function)307301177#2457#169#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#39#0#39#0#43"'*' undeclared (first use in this function)0(4@41"'TestXYTheme' may not respond to '+alloc'307301177#2667#165#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#39#0#39#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)307301177#2832#169#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#39#0#39#0#0"0(4@60"'CPLayerHostingView' undeclared (first use in this function)307301177#3310#182#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(4@53"'hostingView' undeclared (first use in this function)307301177#3492#175#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301177#3667#158#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#43#0#43#0#19"expected * before *0(4@55"'CPXYPlotSpace' undeclared (first use in this function)307301177#3825#177#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#47#0#47#0#43"'*' undeclared (first use in this function)0(4@51"'plotSpace' undeclared (first use in this function)307301177#4002#173#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#47#0#47#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301177#4175#158#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#47#0#47#0#19"expected * before *0(4@53"'CPPlotRange' undeclared (first use in this function)307301177#4333#175#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#49#0#49#0#43"'*' undeclared (first use in this function)0(4@53"Implicit declaration of function 'CPDecimalFromFloat'307301177#4508#177#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#49#0#49#0#36"implicit declaration of function '*'0(4@55"'CPScatterPlot' undeclared (first use in this function)307301177#4685#177#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#53#0#53#0#43"'*' undeclared (first use in this function)0(4@55"'boundLinePlot' undeclared (first use in this function)307301177#4862#177#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#53#0#53#0#43"'*' undeclared (first use in this function)0(4@49"'CPColor' undeclared (first use in this function)307301177#5039#171#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#56#0#56#0#43"'*' undeclared (first use in this function)0(4@60"'dataSourceLinePlot' undeclared (first use in this function)307301177#5210#182#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#61#0#61#0#43"'*' undeclared (first use in this function)0(4@47"'graph' undeclared (first use in this function)307301177#5564#169#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#87#0#87#0#43"'*' undeclared (first use in this function)0(4@48"'CPPlot' undeclared (first use in this function)307301177#5733#170#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#88#0#88#0#43"'*' undeclared (first use in this function)0(4@46"'plot' undeclared (first use in this function)307301177#5903#168#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#88#0#88#0#43"'*' undeclared (first use in this function)0(4@50"Selector element does not have a valid object type307301177#6071#172#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#91#0#91#0#50"selector element does not have a valid object type0(4@55"'CPXYPlotSpace' undeclared (first use in this function)307301177#6419#177#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#97#0#97#0#43"'*' undeclared (first use in this function)0(4@51"'plotSpace' undeclared (first use in this function)307301177#6596#173#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#97#0#97#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301177#6769#158#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#97#0#97#0#19"expected * before *0(4@53"'CPPlotRange' undeclared (first use in this function)307301177#6927#175#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#99#0#99#0#43"'*' undeclared (first use in this function)0(23@13"At top level:307301177#7102#125#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#0#0#0#0#0"0(4@28"Expected ')' before 'CPPlot'307301177#7227#151#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#119#0#119#0#19"expected * before *0(4@28"Expected ')' before 'CPPlot'307301177#7378#151#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#133#0#133#0#19"expected * before *0(4@29"No '-identifier' method found307301177#7728#154#0(6@109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m307298868#135#0#135#0#19"no '*' method found0(0#0#109"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m8616888032#2597"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/include -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/../../build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources/i386 -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch -c /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestAppScatterPlotController.m -o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestAppScatterPlotController.o1#
+
+CCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestApp_iPhoneAppDelegate.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestApp_iPhoneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307301177.135965
+e307301177.220054
+r1
+xCompileC
+xbuild/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestApp_iPhoneAppDelegate.o
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestApp_iPhoneAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestApp_iPhoneAppDelegate.m307301177#307301177#0(0"0(0#0#106"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestApp_iPhoneAppDelegate.m8618379392#2591"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/include -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/../../build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources/i386 -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch -c /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/CPTestApp_iPhoneAppDelegate.m -o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/CPTestApp_iPhoneAppDelegate.o0#
+
+CCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/TestXYTheme.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307301177.203302
+e307301177.248688
+r0
+xCompileC
+xbuild/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/TestXYTheme.o
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:9:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h:12:32: error: CorePlot-CocoaTouch.h: No such file or directory
+oIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:9:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h:16: error: cannot find interface declaration for 'CPXYTheme', superclass of 'TestXYTheme'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '+[TestXYTheme defaultName]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:18: error: 'kCPDarkGradientTheme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:18: error: (Each undeclared identifier is reported only once
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:18: error: for each function it appears in.)
+occ1obj: warnings being treated as errors
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:19: warning: control reaches end of non-void function
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: At top level:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:21: error: expected ')' before 'CPXYAxis'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:21: error: expected ')' before 'CPLineStyle'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:22: error: expected ')' before 'CPLineStyle'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:22: error: expected ')' before 'CPTextStyle'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '-[TestXYTheme applyThemeToAxis:usingMajorLineStyle:minorLineStyle:majorGridLineStyle:textStyle:]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:24: error: request for member 'labelingPolicy' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:24: error: 'CPAxisLabelingPolicyFixedInterval' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:25: error: request for member 'majorIntervalLength' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:25: warning: implicit declaration of function 'CPDecimalFromDouble'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:26: error: request for member 'orthogonalCoordinateDecimal' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:27: error: request for member 'tickDirection' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:27: error: 'CPSignNone' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:28: error: request for member 'minorTicksPerInterval' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:29: error: request for member 'majorTickLineStyle' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:30: error: request for member 'minorTickLineStyle' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:31: error: request for member 'axisLineStyle' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:32: error: request for member 'majorTickLength' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:33: error: request for member 'minorTickLength' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:34: error: request for member 'labelTextStyle' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:35: error: request for member 'titleTextStyle' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:37: error: request for member 'majorGridLineStyle' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:38: error: request for member 'labelingPolicy' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:38: error: 'CPAxisLabelingPolicyAutomatic' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: At top level:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:41: error: expected ')' before 'CPXYGraph'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '-[TestXYTheme applyThemeToBackground:]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:43: error: 'CPColor' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:43: error: 'endColor' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:44: error: 'CPGradient' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:44: error: 'graphGradient' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:49: error: request for member 'fill' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:49: error: 'CPFill' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: At top level:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:52: error: expected ')' before 'CPPlotAreaFrame'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '-[TestXYTheme applyThemeToPlotArea:]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:54: error: 'CPGradient' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:54: error: 'gradient' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:54: error: 'CPColor' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:56: error: request for member 'fill' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:56: error: 'CPFill' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:58: error: request for member 'paddingLeft' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:59: error: request for member 'paddingTop' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:60: error: request for member 'paddingRight' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:61: error: request for member 'paddingBottom' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: At top level:
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:64: error: expected ')' before 'CPXYAxisSet'
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '-[TestXYTheme applyThemeToAxisSet:]':
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:65: error: 'CPLineStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:65: error: 'majorLineStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:67: error: 'CPColor' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:70: error: 'minorLineStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:75: error: 'majorGridLineStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:79: error: 'minorGridLineStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:83: error: 'CPTextStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:83: error: 'whiteTextStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:87: error: request for member 'xAxis' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:88: error: request for member 'yAxis' in something not a structure or union
+lSLF07#2@98"Compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307301177#307301177#0(10526"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:9:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h:12:32: error: CorePlot-CocoaTouch.h: No such file or directoryIn file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:9:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h:16: error: cannot find interface declaration for 'CPXYTheme', superclass of 'TestXYTheme'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '+[TestXYTheme defaultName]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:18: error: 'kCPDarkGradientTheme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:18: error: (Each undeclared identifier is reported only once/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:18: error: for each function it appears in.)cc1obj: warnings being treated as errors/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:19: warning: control reaches end of non-void function/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: At top level:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:21: error: expected ')' before 'CPXYAxis'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:21: error: expected ')' before 'CPLineStyle'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:22: error: expected ')' before 'CPLineStyle'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:22: error: expected ')' before 'CPTextStyle'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '-[TestXYTheme applyThemeToAxis:usingMajorLineStyle:minorLineStyle:majorGridLineStyle:textStyle:]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:24: error: request for member 'labelingPolicy' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:24: error: 'CPAxisLabelingPolicyFixedInterval' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:25: error: request for member 'majorIntervalLength' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:25: warning: implicit declaration of function 'CPDecimalFromDouble'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:26: error: request for member 'orthogonalCoordinateDecimal' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:27: error: request for member 'tickDirection' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:27: error: 'CPSignNone' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:28: error: request for member 'minorTicksPerInterval' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:29: error: request for member 'majorTickLineStyle' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:30: error: request for member 'minorTickLineStyle' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:31: error: request for member 'axisLineStyle' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:32: error: request for member 'majorTickLength' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:33: error: request for member 'minorTickLength' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:34: error: request for member 'labelTextStyle' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:35: error: request for member 'titleTextStyle' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:37: error: request for member 'majorGridLineStyle' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:38: error: request for member 'labelingPolicy' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:38: error: 'CPAxisLabelingPolicyAutomatic' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: At top level:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:41: error: expected ')' before 'CPXYGraph'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '-[TestXYTheme applyThemeToBackground:]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:43: error: 'CPColor' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:43: error: 'endColor' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:44: error: 'CPGradient' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:44: error: 'graphGradient' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:49: error: request for member 'fill' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:49: error: 'CPFill' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: At top level:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:52: error: expected ')' before 'CPPlotAreaFrame'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '-[TestXYTheme applyThemeToPlotArea:]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:54: error: 'CPGradient' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:54: error: 'gradient' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:54: error: 'CPColor' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:56: error: request for member 'fill' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:56: error: 'CPFill' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:58: error: request for member 'paddingLeft' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:59: error: request for member 'paddingTop' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:60: error: request for member 'paddingRight' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:61: error: request for member 'paddingBottom' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: At top level:/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:64: error: expected ')' before 'CPXYAxisSet'/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m: In function '-[TestXYTheme applyThemeToAxisSet:]':/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:65: error: 'CPLineStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:65: error: 'majorLineStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:67: error: 'CPColor' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:70: error: 'minorLineStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:75: error: 'majorGridLineStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:79: error: 'minorGridLineStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:83: error: 'CPTextStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:83: error: 'whiteTextStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:87: error: request for member 'xAxis' in something not a structure or union/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m:88: error: request for member 'yAxis' in something not a structure or union58(4@48"CorePlot-CocoaTouch.h: No such file or directory307301177#116#154#2(7@112"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307301177#18446744073709551615#0#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#9#0#9#0#0"0(13@142"CorePlot-CocoaTouch.h: No such file or directory in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307301177#18446744073709551615#0#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307298868#12#0#12#0#0"0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307298868#12#0#12#0#28"*: No such file or directory0(4@78"Cannot find interface declaration for 'CPXYTheme', superclass of 'TestXYTheme'307301177#386#181#2(7@112"In file included from /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307301177#18446744073709551615#0#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#9#0#9#0#0"0(13@172"Cannot find interface declaration for 'CPXYTheme', superclass of 'TestXYTheme' in /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307301177#18446744073709551615#0#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307298868#16#0#16#0#0"0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.h307298868#16#0#16#0#60"cannot find interface declaration for '*', superclass of '*'0(4@62"'kCPDarkGradientTheme' undeclared (first use in this function)307301177#701#165#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#18#0#18#0#43"'*' undeclared (first use in this function)0(4@40"Control reaches end of non-void function307301177#1195#145#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#19#0#19#0#40"control reaches end of non-void function0(23@13"At top level:307301177#1340#106#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#0#0#0#0#0"0(4@30"Expected ')' before 'CPXYAxis'307301177#1446#133#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#21#0#21#0#19"expected * before *0(4@33"Expected ')' before 'CPLineStyle'307301177#1579#136#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#21#0#21#0#19"expected * before *0(4@33"Expected ')' before 'CPLineStyle'307301177#1715#136#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#22#0#22#0#19"expected * before *0(4@33"Expected ')' before 'CPTextStyle'307301177#1851#136#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#22#0#22#0#19"expected * before *0(4@73"Request for member 'labelingPolicy' in something not a structure or union307301177#2191#176#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#24#0#24#0#0"0(4@75"'CPAxisLabelingPolicyFixedInterval' undeclared (first use in this function)307301177#2367#178#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#24#0#24#0#43"'*' undeclared (first use in this function)0(4@78"Request for member 'majorIntervalLength' in something not a structure or union307301177#2545#181#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#25#0#25#0#0"0(4@54"Implicit declaration of function 'CPDecimalFromDouble'307301177#2726#159#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#25#0#25#0#36"implicit declaration of function '*'0(4@86"Request for member 'orthogonalCoordinateDecimal' in something not a structure or union307301177#2885#189#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#26#0#26#0#0"0(4@72"Request for member 'tickDirection' in something not a structure or union307301177#3074#175#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#27#0#27#0#0"0(4@52"'CPSignNone' undeclared (first use in this function)307301177#3249#155#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#27#0#27#0#43"'*' undeclared (first use in this function)0(4@80"Request for member 'minorTicksPerInterval' in something not a structure or union307301177#3404#183#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#28#0#28#0#0"0(4@77"Request for member 'majorTickLineStyle' in something not a structure or union307301177#3587#180#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#29#0#29#0#0"0(4@77"Request for member 'minorTickLineStyle' in something not a structure or union307301177#3767#180#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#30#0#30#0#0"0(4@72"Request for member 'axisLineStyle' in something not a structure or union307301177#3947#175#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#31#0#31#0#0"0(4@74"Request for member 'majorTickLength' in something not a structure or union307301177#4122#177#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#32#0#32#0#0"0(4@74"Request for member 'minorTickLength' in something not a structure or union307301177#4299#177#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#33#0#33#0#0"0(4@73"Request for member 'labelTextStyle' in something not a structure or union307301177#4476#176#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#34#0#34#0#0"0(4@73"Request for member 'titleTextStyle' in something not a structure or union307301177#4652#176#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#35#0#35#0#0"0(4@77"Request for member 'majorGridLineStyle' in something not a structure or union307301177#4828#180#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#37#0#37#0#0"0(4@73"Request for member 'labelingPolicy' in something not a structure or union307301177#5008#176#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#38#0#38#0#0"0(4@71"'CPAxisLabelingPolicyAutomatic' undeclared (first use in this function)307301177#5184#174#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#38#0#38#0#43"'*' undeclared (first use in this function)0(23@13"At top level:307301177#5358#106#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#0#0#0#0#0"0(4@31"Expected ')' before 'CPXYGraph'307301177#5464#134#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#41#0#41#0#19"expected * before *0(4@49"'CPColor' undeclared (first use in this function)307301177#5744#152#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(4@50"'endColor' undeclared (first use in this function)307301177#5896#153#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(4@52"'CPGradient' undeclared (first use in this function)307301177#6049#155#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#44#0#44#0#43"'*' undeclared (first use in this function)0(4@55"'graphGradient' undeclared (first use in this function)307301177#6204#158#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#44#0#44#0#43"'*' undeclared (first use in this function)0(4@63"Request for member 'fill' in something not a structure or union307301177#6362#166#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#49#0#49#0#0"0(4@48"'CPFill' undeclared (first use in this function)307301177#6528#151#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#49#0#49#0#43"'*' undeclared (first use in this function)0(23@13"At top level:307301177#6679#106#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#0#0#0#0#0"0(4@37"Expected ')' before 'CPPlotAreaFrame'307301177#6785#140#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#52#0#52#0#19"expected * before *0(4@52"'CPGradient' undeclared (first use in this function)307301177#7069#155#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#54#0#54#0#43"'*' undeclared (first use in this function)0(4@50"'gradient' undeclared (first use in this function)307301177#7224#153#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#54#0#54#0#43"'*' undeclared (first use in this function)0(4@49"'CPColor' undeclared (first use in this function)307301177#7377#152#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#54#0#54#0#43"'*' undeclared (first use in this function)0(4@63"Request for member 'fill' in something not a structure or union307301177#7529#166#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#56#0#56#0#0"0(4@48"'CPFill' undeclared (first use in this function)307301177#7695#151#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#56#0#56#0#43"'*' undeclared (first use in this function)0(4@70"Request for member 'paddingLeft' in something not a structure or union307301177#7846#173#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#58#0#58#0#0"0(4@69"Request for member 'paddingTop' in something not a structure or union307301177#8019#172#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#59#0#59#0#0"0(4@71"Request for member 'paddingRight' in something not a structure or union307301177#8191#174#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#60#0#60#0#0"0(4@72"Request for member 'paddingBottom' in something not a structure or union307301177#8365#175#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#61#0#61#0#0"0(23@13"At top level:307301177#8540#106#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#0#0#0#0#0"0(4@33"Expected ')' before 'CPXYAxisSet'307301177#8646#136#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#64#0#64#0#19"expected * before *0(4@53"'CPLineStyle' undeclared (first use in this function)307301177#8925#156#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#65#0#65#0#43"'*' undeclared (first use in this function)0(4@56"'majorLineStyle' undeclared (first use in this function)307301177#9081#159#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#65#0#65#0#43"'*' undeclared (first use in this function)0(4@49"'CPColor' undeclared (first use in this function)307301177#9240#152#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#67#0#67#0#43"'*' undeclared (first use in this function)0(4@56"'minorLineStyle' undeclared (first use in this function)307301177#9392#159#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#70#0#70#0#43"'*' undeclared (first use in this function)0(4@60"'majorGridLineStyle' undeclared (first use in this function)307301177#9551#163#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#75#0#75#0#43"'*' undeclared (first use in this function)0(4@60"'minorGridLineStyle' undeclared (first use in this function)307301177#9714#163#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#79#0#79#0#43"'*' undeclared (first use in this function)0(4@53"'CPTextStyle' undeclared (first use in this function)307301177#9877#156#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#83#0#83#0#43"'*' undeclared (first use in this function)0(4@56"'whiteTextStyle' undeclared (first use in this function)307301177#10033#159#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#83#0#83#0#43"'*' undeclared (first use in this function)0(4@64"Request for member 'xAxis' in something not a structure or union307301177#10192#167#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#87#0#87#0#0"0(4@64"Request for member 'yAxis' in something not a structure or union307301177#10359#167#0(6@90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m307298868#88#0#88#0#0"0(0#0#90"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m8620288576#2559"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/include -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/../../build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources/i386 -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch -c /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Classes/TestXYTheme.m -o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/TestXYTheme.o1#
+
+CCompileC build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/main.o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307301177.135025
+e307301177.198465
+r1
+xCompileC
+xbuild/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/main.o
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/main.m307301177#307301177#0(0"0(0#0#75"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/main.m8618777472#2537"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/include -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/../../build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources/i386 -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch -c /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/main.m -o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib
+s307301176.151041
+e307301176.553538
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Layer Hosting View' but 'CPLayerHostingView' is not a kind of 'UIView' as specified by the outlet type.
+lSLF07#2@23"CompileXIB BarChart.xib307301176#307301176#0(293"/* com.apple.ibtool.document.warnings *//Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Layer Hosting View' but 'CPLayerHostingView' is not a kind of 'UIView' as specified by the outlet type.1(22@156"The 'view' outlet of 'File's Owner' is connected to 'Layer Hosting View' but 'CPLayerHostingView' is not a kind of 'UIView' as specified by the outlet type.307301176#18446744073709551615#0#0(6@81"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib307298868#18446744073709551615#0#18446744073709551615#0#0"0(0#0#81"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib8607392992#665"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/BarChart.nib /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/BarChart.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/MainWindow.xib
+s307301176.150386
+e307301176.622999
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib307301176#307301176#0(0"0(0#0#83"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/MainWindow.xib8608119328#669"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/MainWindow.nib /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib
+s307301176.153371
+e307301176.581391
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Layer Hosting View' but 'CPLayerHostingView' is not a kind of 'UIView' as specified by the outlet type.
+lSLF07#2@23"CompileXIB PieChart.xib307301176#307301176#0(293"/* com.apple.ibtool.document.warnings *//Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Layer Hosting View' but 'CPLayerHostingView' is not a kind of 'UIView' as specified by the outlet type.1(22@156"The 'view' outlet of 'File's Owner' is connected to 'Layer Hosting View' but 'CPLayerHostingView' is not a kind of 'UIView' as specified by the outlet type.307301176#18446744073709551615#0#0(6@81"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib307298868#18446744073709551615#0#18446744073709551615#0#0"0(0#0#81"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib8611423296#665"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/PieChart.nib /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/PieChart.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/ScatterPlot.xib
+s307301176.151734
+e307301176.568732
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/ScatterPlot.xib
+lSLF07#2@26"CompileXIB ScatterPlot.xib307301176#307301176#0(0"0(0#0#84"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/ScatterPlot.xib8611877184#671"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/ScatterPlot.nib /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/ScatterPlot.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/CPTestApp-iPhone.app/16-line-chart.png GlyphishIcons/16-line-chart.png
+s307301176.553708
+e307301176.559998
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CPTestApp-iPhone.app/16-line-chart.png
+xGlyphishIcons/16-line-chart.png
+lSLF07#2@36"Copy GlyphishIcons/16-line-chart.png307301176#307301176#0(0"0(0#0#100"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/16-line-chart.png8619957248#574"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/16-line-chart.png /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/CPTestApp-iPhone.app/17-bar-chart.png GlyphishIcons/17-bar-chart.png
+s307301176.554664
+e307301176.560292
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CPTestApp-iPhone.app/17-bar-chart.png
+xGlyphishIcons/17-bar-chart.png
+lSLF07#2@35"Copy GlyphishIcons/17-bar-chart.png307301176#307301176#0(0"0(0#0#99"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/17-bar-chart.png8619834400#573"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/17-bar-chart.png /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/CPTestApp-iPhone.app/62-contrast.png GlyphishIcons/62-contrast.png
+s307301176.555444
+e307301176.561521
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CPTestApp-iPhone.app/62-contrast.png
+xGlyphishIcons/62-contrast.png
+lSLF07#2@34"Copy GlyphishIcons/62-contrast.png307301176#307301176#0(0"0(0#0#98"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/62-contrast.png8619710272#572"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/GlyphishIcons/62-contrast.png /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app0#
+
+CCpResource build/Debug-iphonesimulator/CPTestApp-iPhone.app/CorePlotIcon.png CorePlotIcon.png
+s307301176.152653
+e307301176.173638
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CPTestApp-iPhone.app/CorePlotIcon.png
+xCorePlotIcon.png
+lSLF07#2@21"Copy CorePlotIcon.png307301176#307301176#0(0"0(0#0#85"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/CorePlotIcon.png8611636992#559"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/CorePlotIcon.png /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app0#
+
+CGenerateDSYMFile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app.dSYM /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/CPTestApp-iPhone
+r0
+
+CLd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/CPTestApp-iPhone normal i386
+r0
+
+CProcessInfoPlistFile /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/Info.plist Info.plist
+s307301176.147309
+e307301176.150306
+r1
+xProcessInfoPlistFile
+x/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist307301176#307301176#0(0"0(0#0#79"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/Info.plist8611477280#579"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app/Info.plist0#
+
+CProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-czekomwkexljphcnwibrpcywtkao/CPTestApp_iPhone_Prefix.pch.gch CPTestApp_iPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch.gch CPTestApp_iPhone_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s307301176.623114
+e307301177.134797
+r1
+xProcessPCH
+x/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch.gch
+xCPTestApp_iPhone_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile CPTestApp_iPhone_Prefix.pch307301176#307301177#0(0"0(0#0#96"/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/CPTestApp_iPhone_Prefix.pch8619401888#2390"    cd /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/CPTestApp-iPhone-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/include -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/../../build/Debug-iphonesimulator -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources/i386 -I/Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/CPTestApp-iPhone.build/Debug-iphonesimulator/CPTestApp-iPhone.build/DerivedSources -c /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/CPTestApp_iPhone_Prefix.pch -o /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CPTestApp_iPhone_Prefix-foalitpxcvfmzrhlblqibnitqjmg/CPTestApp_iPhone_Prefix.pch.gch0#
+
+CTouch /Users/boris/workspace/core-plot/examples/CPTestApp-iPhone-SpeedTest/build/Debug-iphonesimulator/CPTestApp-iPhone.app
+r0
+

@@ -1,0 +1,119 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* CPTestApp-iPhone */ = {
+		activeExec = 0;
+		executables = (
+			A1E76D4512510B2C00DCB62F /* CPTestApp-iPhone */,
+		);
+	};
+	28216C950DB411BC00E5133A /* CPTestAppBarChartController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 434}}";
+			sepNavSelRange = "{86, 0}";
+			sepNavVisRange = "{0, 229}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A1E76D4512510B2C00DCB62F /* CPTestApp-iPhone */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CPTestApp-iPhone */;
+		codeSenseManager = A1E76D6112510B4A00DCB62F /* Code sense */;
+		executables = (
+			A1E76D4512510B2C00DCB62F /* CPTestApp-iPhone */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307301164;
+			PBXWorkspaceStateSaveDate = 307301164;
+		};
+		perUserProjectItems = {
+			A1E76D5B12510B4A00DCB62F /* XCBuildMessageTextBookmark */ = A1E76D5B12510B4A00DCB62F /* XCBuildMessageTextBookmark */;
+			A1E76DC812510F7500DCB62F /* PBXTextBookmark */ = A1E76DC812510F7500DCB62F /* PBXTextBookmark */;
+		};
+		sourceControlManager = A1E76D6012510B4A00DCB62F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A1E76D4512510B2C00DCB62F /* CPTestApp-iPhone */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "CPTestApp-iPhone";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A1E76D5B12510B4A00DCB62F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "CorePlot-CocoaTouch.h: No such file or directory";
+		fRef = 28216C950DB411BC00E5133A /* CPTestAppBarChartController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 6;
+		rType = 1;
+	};
+	A1E76D6012510B4A00DCB62F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A1E76D6112510B4A00DCB62F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A1E76DC812510F7500DCB62F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* CPTestAppBarChartController.h */;
+		name = "CPTestAppBarChartController.h: 7";
+		rLen = 0;
+		rLoc = 86;
+		rType = 0;
+		vrLen = 229;
+		vrLoc = 0;
+	};
+}

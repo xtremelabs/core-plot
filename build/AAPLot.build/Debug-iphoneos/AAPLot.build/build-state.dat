@@ -1,0 +1,1125 @@
+TAAPLot
+v7
+r0
+t307301774.221876
+cCheck dependencies
+cCpResource ../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist Info.plist
+cCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib
+cCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib
+cCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib
+cCopyPlistFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPL.plist AAPL.plist
+cProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch.gch AAPLot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o /Users/boris/workspace/core-plot/examples/AAPLot/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o /Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o /Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o /Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot normal armv6
+cGenerateDSYMFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app.dSYM /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot
+cProcessProductPackaging "/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision" /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision
+cTouch /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent
+cCodeSign /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A556300000000000000C4
+t1280988515
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A56D600000000002573D0
+t1280988886
+s2454480
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision
+c000000004CA0C4A00000000000002F06
+t1285604512
+s12038
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a
+c000000004CA0D40100000000001DE348
+t1285608449
+s1958728
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAnimation.h
+c000000004CA0D3FC000000000000054C
+t1285608444
+s1356
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAnimationKeyFrame.h
+c000000004CA0D3FC00000000000001B6
+t1285608444
+s438
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAnimationTransition.h
+c000000004CA0D3FC0000000000000461
+t1285608444
+s1121
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAnnotation.h
+c000000004CA0D3FC000000000000037D
+t1285608444
+s893
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAnnotationHostLayer.h
+c000000004CA0D3FC0000000000000151
+t1285608444
+s337
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAxis.h
+c000000004CA0D3FC0000000000001BFB
+t1285608444
+s7163
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAxisLabel.h
+c000000004CA0D3FC000000000000040D
+t1285608444
+s1037
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAxisLabelGroup.h
+c000000004CA0D3FC0000000000000068
+t1285608444
+s104
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAxisSet.h
+c000000004CA0D3FC0000000000000144
+t1285608444
+s324
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPAxisTitle.h
+c000000004CA0D3FC000000000000006D
+t1285608444
+s109
+i<Foundation/Foundation.h>
+i"CPAxisLabel.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPBarPlot.h
+c000000004CA0D3FC0000000000000CCD
+t1285608444
+s3277
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPBorderedLayer.h
+c000000004CA0D3FC000000000000015B
+t1285608444
+s347
+i<Foundation/Foundation.h>
+i"CPAnnotationHostLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPColor.h
+c000000004CA0D3FC0000000000000439
+t1285608444
+s1081
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPColorSpace.h
+c000000004CA0D3FC0000000000000141
+t1285608444
+s321
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPConstrainedPosition.h
+c000000004CA0D3FC000000000000031A
+t1285608444
+s794
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPDarkGradientTheme.h
+c000000004CA0D3FC000000000000006F
+t1285608444
+s111
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPDefinitions.h
+c000000004CA0D3FC0000000000000E32
+t1285608444
+s3634
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPExceptions.h
+c000000004CA0D3FC00000000000000E1
+t1285608444
+s225
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPFill.h
+c000000004CA0D3FC0000000000000346
+t1285608444
+s838
+i<QuartzCore/QuartzCore.h>
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPGradient.h
+c000000004CA0D3FC0000000000000B97
+t1285608444
+s2967
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPGraph.h
+c000000004CA0D3FC0000000000000B1F
+t1285608444
+s2847
+i"CPBorderedLayer.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPGridLines.h
+c000000004CA0D3FC000000000000010A
+t1285608444
+s266
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPImage.h
+c000000004CA0D3FC00000000000002AA
+t1285608444
+s682
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPLayer.h
+c000000004CA0D3FC00000000000008CF
+t1285608444
+s2255
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i"CPResponder.h"
+i"CPPlatformSpecificDefines.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPLayerAnnotation.h
+c000000004CA0D3FC00000000000001F1
+t1285608444
+s497
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+i"CPConstrainedPosition.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPLayerHostingView.h
+c000000004CA0D3FC00000000000000BE
+t1285608444
+s190
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPLayoutManager.h
+c000000004CA0D3FC00000000000006B2
+t1285608444
+s1714
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPLimitBand.h
+c000000004CA0D3FC00000000000001C3
+t1285608444
+s451
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPLineStyle.h
+c000000004CA0D3FC000000000000040E
+t1285608444
+s1038
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPMutableNumericData+TypeConversion.h
+c000000004CA0D3FC00000000000002BD
+t1285608444
+s701
+i<Foundation/Foundation.h>
+i"CPMutableNumericData.h"
+i"CPNumericDataType.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPMutableNumericData.h
+c000000004CA0D3FC0000000000000336
+t1285608444
+s822
+i<Foundation/Foundation.h>
+i"CPNumericDataType.h"
+i"CPNumericData.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPNumericData+TypeConversion.h
+c000000004CA0D3FC0000000000000369
+t1285608444
+s873
+i<Foundation/Foundation.h>
+i"CPNumericData.h"
+i"CPNumericDataType.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPNumericData.h
+c000000004CA0D3FC000000000000088E
+t1285608444
+s2190
+i<Foundation/Foundation.h>
+i"CPNumericDataType.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPNumericDataType.h
+c000000004CA0D3FC000000000000049A
+t1285608444
+s1178
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPathExtensions.h
+c000000004CA0D3FC00000000000000E7
+t1285608444
+s231
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPieChart.h
+c000000004CA0D3FC0000000000000C5C
+t1285608444
+s3164
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlainBlackTheme.h
+c000000004CA0D3FC000000000000006E
+t1285608444
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlainWhiteTheme.h
+c000000004CA0D3FC000000000000006E
+t1285608444
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlatformSpecificCategories.h
+c000000004CA0D3FC000000000000039E
+t1285608444
+s926
+i<UIKit/UIKit.h>
+i"CPColor.h"
+i"CPLayer.h"
+i"CPPlatformSpecificDefines.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlatformSpecificDefines.h
+c000000004CA0D3FC000000000000005B
+t1285608444
+s91
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlatformSpecificFunctions.h
+c000000004CA0D3FC00000000000000B6
+t1285608444
+s182
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlot.h
+c000000004CA0D3FC0000000000001B05
+t1285608444
+s6917
+i"CPDefinitions.h"
+i"CPPlotRange.h"
+i"CPAnnotationHostLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlotArea.h
+c000000004CA0D3FC0000000000000641
+t1285608444
+s1601
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPGraph.h"
+i"CPAnnotationHostLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlotAreaFrame.h
+c000000004CA0D3FC000000000000016F
+t1285608444
+s367
+i"CPBorderedLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlotGroup.h
+c000000004CA0D3FC0000000000000142
+t1285608444
+s322
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlotRange.h
+c000000004CA0D3FC00000000000008A0
+t1285608444
+s2208
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlotSpace.h
+c000000004CA0D3FC0000000000000FE7
+t1285608444
+s4071
+i"CPDefinitions.h"
+i"CPResponder.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlotSpaceAnnotation.h
+c000000004CA0D3FC0000000000000197
+t1285608444
+s407
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPlotSymbol.h
+c000000004CA0D3FC0000000000000822
+t1285608444
+s2082
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPPolarPlotSpace.h
+c000000004CA0D3FC0000000000000075
+t1285608444
+s117
+i<Foundation/Foundation.h>
+i"CPPlotSpace.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPResponder.h
+c000000004CA0D3FC0000000000000535
+t1285608444
+s1333
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPScatterPlot.h
+c000000004CA0D3FC0000000000000D71
+t1285608444
+s3441
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPSlateTheme.h
+c000000004CA0D3FC0000000000000068
+t1285608444
+s104
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPStocksTheme.h
+c000000004CA0D3FC000000000000006A
+t1285608444
+s106
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPTextLayer.h
+c000000004CA0D3FC0000000000000224
+t1285608444
+s548
+i"CPLayer.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPTextStyle.h
+c000000004CA0D3FC000000000000034B
+t1285608444
+s843
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPTheme.h
+c000000004CA0D3FC00000000000004B0
+t1285608444
+s1200
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPTimeFormatter.h
+c000000004CA0D3FC0000000000000175
+t1285608444
+s373
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPTradingRangePlot.h
+c000000004CA0D3FC0000000000000A07
+t1285608444
+s2567
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPUtilities.h
+c000000004CA0D3FC0000000000000CF6
+t1285608444
+s3318
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPXYAxis.h
+c000000004CA0D3FC000000000000020E
+t1285608444
+s526
+i<Foundation/Foundation.h>
+i"CPAxis.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPXYAxisSet.h
+c000000004CA0D3FC00000000000000EB
+t1285608444
+s235
+i<Foundation/Foundation.h>
+i"CPAxisSet.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPXYGraph.h
+c000000004CA0D3FC0000000000000154
+t1285608444
+s340
+i<Foundation/Foundation.h>
+i"CPGraph.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPXYPlotSpace.h
+c000000004CA0D3FC000000000000030F
+t1285608444
+s783
+i"CPPlotSpace.h"
+i"CPDefinitions.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CPXYTheme.h
+c000000004CA0D3FC0000000000000062
+t1285608444
+s98
+i<Foundation/Foundation.h>
+i"CPTheme.h"
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/usr/local/include/CorePlot-CocoaTouch.h
+c000000004CA0D3FC00000000000006ED
+t1285608444
+s1773
+i"CPAnimation.h"
+i"CPAnimationKeyFrame.h"
+i"CPAnimationTransition.h"
+i"CPAnnotation.h"
+i"CPAnnotationHostLayer.h"
+i"CPAxis.h"
+i"CPAxisLabel.h"
+i"CPAxisLabelGroup.h"
+i"CPAxisSet.h"
+i"CPAxisTitle.h"
+i"CPBarPlot.h"
+i"CPBorderedLayer.h"
+i"CPColor.h"
+i"CPColorSpace.h"
+i"CPConstrainedPosition.h"
+i"CPDarkGradientTheme.h"
+i"CPDefinitions.h"
+i"CPExceptions.h"
+i"CPFill.h"
+i"CPGradient.h"
+i"CPGraph.h"
+i"CPGridLines.h"
+i"CPImage.h"
+i"CPLayer.h"
+i"CPLayerAnnotation.h"
+i"CPLayerHostingView.h"
+i"CPLayoutManager.h"
+i"CPLimitBand.h"
+i"CPLineStyle.h"
+i"CPMutableNumericData.h"
+i"CPMutableNumericData+TypeConversion.h"
+i"CPNumericData.h"
+i"CPNumericData+TypeConversion.h"
+i"CPNumericDataType.h"
+i"CPPieChart.h"
+i"CPPlainBlackTheme.h"
+i"CPPlainWhiteTheme.h"
+i"CPPlatformSpecificDefines.h"
+i"CPPlatformSpecificFunctions.h"
+i"CPPlatformSpecificCategories.h"
+i"CPPathExtensions.h"
+i"CPPlot.h"
+i"CPPlotArea.h"
+i"CPPlotAreaFrame.h"
+i"CPPlotGroup.h"
+i"CPPlotRange.h"
+i"CPPlotSpace.h"
+i"CPPlotSpaceAnnotation.h"
+i"CPPlotSymbol.h"
+i"CPPolarPlotSpace.h"
+i"CPResponder.h"
+i"CPScatterPlot.h"
+i"CPSlateTheme.h"
+i"CPSlateTheme.h"
+i"CPStocksTheme.h"
+i"CPTextLayer.h"
+i"CPTextStyle.h"
+i"CPTheme.h"
+i"CPTimeFormatter.h"
+i"CPTradingRangePlot.h"
+i"CPUtilities.h"
+i"CPXYAxis.h"
+i"CPXYAxisSet.h"
+i"CPXYGraph.h"
+i"CPXYPlotSpace.h"
+i"CPXYTheme.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent
+t1285608450
+s412
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLot.LinkFileList
+c000000004CA0D4010000000000000502
+t1285608449
+s1282
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o
+t1285608916
+s45456
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o
+t1285608916
+s10628
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o
+t1285608916
+s54912
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o
+t1285608916
+s34544
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o
+t1285608916
+s35480
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o
+t1285608916
+s77912
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o
+t1285608916
+s7748
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o
+t1285608916
+s54348
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o
+t1285608916
+s6464
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+t1285608916
+s442
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app.dSYM
+t1285608916
+s102
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPL.plist
+t1285608449
+s6741
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot
+t1285608916
+s718528
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/FlipsideView.nib
+t1285608450
+s877
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist
+t1285608449
+s719
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/MainView.nib
+t1285608450
+s1065
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/MainWindow.nib
+t1285608450
+s1842
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/PkgInfo
+t1285608449
+s8
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist
+t1285608449
+s485
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision
+t1285608450
+s12038
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/AAPL.plist
+c000000004CA0CAB40000000000004F13
+t1285606068
+s20243
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch
+c000000004CA0CAB400000000000000C8
+t1285606068
+s200
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.h
+c000000004CA0CAB40000000000000084
+t1285606068
+s132
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m
+c000000004CA0CAB400000000000006A8
+t1285606068
+s1704
+i"APFinancialData.h"
+i"NSDateFormatterExtensions.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.h
+c000000004CA0CAB4000000000000060C
+t1285606068
+s1548
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m
+c000000004CA0CAB40000000000003199
+t1285606068
+s12697
+i"APYahooDataPuller.h"
+i"APFinancialData.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib
+c000000004CA0CAB400000000000035B4
+t1285606068
+s13748
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.h
+c000000004CA0CAB400000000000001DE
+t1285606068
+s478
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m
+c000000004CA0CAB40000000000000233
+t1285606068
+s563
+i"AAPLotAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.h
+c000000004CA0CAB400000000000000D3
+t1285606068
+s211
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m
+c000000004CA0CAB400000000000001BB
+t1285606068
+s443
+i"FlipsideView.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.h
+c000000004CA0CAB400000000000000F1
+t1285606068
+s241
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m
+c000000004CA0CAB40000000000000380
+t1285606068
+s896
+i"FlipsideViewController.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h
+c000000004CA0CAB400000000000001BA
+t1285606068
+s442
+i<UIKit/UIKit.h>
+i"APYahooDataPuller.h"
+i"CorePlot-CocoaTouch.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m
+c000000004CA0CAB400000000000026A1
+t1285606068
+s9889
+i"MainViewController.h"
+i"APYahooDataPuller.h"
+i"APFinancialData.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.h
+c000000004CA0CAB400000000000002FB
+t1285606068
+s763
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m
+c000000004CA0CAB40000000000000F8E
+t1285606068
+s3982
+i"RootViewController.h"
+i"MainViewController.h"
+i"FlipsideViewController.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib
+c000000004CA0CAB4000000000000182B
+t1285606068
+s6187
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib
+c000000004CA0CAB40000000000002342
+t1285606068
+s9026
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.h
+c000000004CA0CAB4000000000000007C
+t1285606068
+s124
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m
+c000000004CA0CAB40000000000000129
+t1285606068
+s297
+i"NSDateFormatterExtensions.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/main.m
+c000000004CA0CAB400000000000000D8
+t1285606068
+s216
+i<UIKit/UIKit.h>
+
+N/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch
+t1285608450
+s9844272
+
+N/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch.gch
+t1285608916
+s9844272
+
+N/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-ggxibobxfblnldabukxairdekmok/AAPLot_Prefix.pch.gch
+t1285608894
+s9844272
+
+NInfo.plist
+c000000004CA0CAB40000000000000383
+t1285606068
+s899
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307301774#307301774#0(0"0(0#1#0"8632051616#0"0#
+
+CCodeSign /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+s307301716.846135
+e307301716.959982
+r1
+xCodeSign
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+lSLF07#2@46"CodeSign ../../build/Debug-iphoneos/AAPLot.app307301716#307301716#0(0"0(0#0#86"/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app8625773856#678"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: James Woods (29A85GFT8F)" --resource-rules=/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist --entitlements /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent /Users/boris/workspace/core-plot/build/Debug-iphoneos/AAPLot.app0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.399346
+e307301716.481625
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m307301716#307301716#0(0"0(0#0#76"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m8627558400#2378"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o /Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.548528
+e307301716.620566
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m307301716#307301716#0(0"0(0#0#66"/Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m8623400192#2366"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o /Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.481778
+e307301716.653105
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m307301716#307301716#0(0"0(0#0#68"/Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m8626045632#2370"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.400271
+e307301716.474514
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m307301716#307301716#0(0"0(0#0#71"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m8627366912#2368"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.474652
+e307301716.548384
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m307301716#307301716#0(0"0(0#0#81"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m8626228416#2388"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.401126
+e307301716.622358
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307301716#307301716#0(0"0(0#0#77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m8627212352#2380"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o /Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.620717
+e307301716.666157
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m307301716#307301716#0(0"0(0#0#76"/Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m8623165024#2386"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.457824
+e307301716.622150
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m307301716#307301716#0(0"0(0#0#77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m8626875616#2380"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o /Users/boris/workspace/core-plot/examples/AAPLot/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301716.398419
+e307301716.457684
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/boris/workspace/core-plot/examples/AAPLot/main.m307301716#307301716#0(0"0(0#0#55"/Users/boris/workspace/core-plot/examples/AAPLot/main.m8627763776#2344"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/main.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib
+s307301249.684674
+e307301250.083728
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib
+lSLF07#2@36"CompileXIB Classes/../MainWindow.xib307301249#307301250#0(0"0(0#0#74"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib8621665504#588"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/MainWindow.nib /Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib
+s307301249.683623
+e307301250.042664
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib307301249#307301250#0(0"0(0#0#65"/Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib8622318240#581"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/FlipsideView.nib /Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib
+s307301249.684176
+e307301250.047382
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib307301249#307301250#0(0"0(0#0#61"/Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib8621924992#573"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/MainView.nib /Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCopyPlistFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPL.plist AAPL.plist
+s307301249.685194
+e307301249.711879
+r1
+xCopyPlistFile
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPL.plist
+xAAPL.plist
+lSLF07#2@15"Copy AAPL.plist307301249#307301249#0(0"0(0#0#59"/Users/boris/workspace/core-plot/examples/AAPLot/AAPL.plist8621539072#396"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 AAPL.plist --outdir /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app0#
+
+CCpResource ../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s307301249.678652
+e307301249.683573
+r1
+xCpResource
+x../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist307301249#307301249#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8626785280#505"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app0#
+
+CGenerateDSYMFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app.dSYM /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot
+s307301716.782168
+e307301716.843023
+r1
+xGenerateDSYMFile
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app.dSYM
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot
+lSLF07#2@104"GenerateDSYMFile ../../build/Debug-iphoneos/AAPLot.app.dSYM ../../build/Debug-iphoneos/AAPLot.app/AAPLot307301716#307301716#0(0"0(0#0#93"/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot8627981760#401"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app.dSYM0#
+
+CLd /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot normal armv6
+s307301716.666248
+e307301716.782070
+r1
+xLd
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot
+xnormal
+xarmv6
+lSLF07#2@98"Link /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot307301716#307301716#0(0"0(0#0#0"8614214880#1008"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -filelist /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLot.LinkFileList -dead_strip -ObjC -all_load -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics /Users/boris/workspace/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a -framework QuartzCore -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot0#
+
+CProcessInfoPlistFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist Info.plist
+s307301249.679421
+e307301249.682717
+r1
+xProcessInfoPlistFile
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist307301249#307301249#0(0"0(0#0#59"/Users/boris/workspace/core-plot/examples/AAPLot/Info.plist8623250400#609"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist0#
+
+CProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch AAPLot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.083845
+e307301250.489524
+r1
+xProcessPCH
+x/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch
+xAAPLot_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile AAPLot_Prefix.pch307301250#307301250#0(0"0(0#0#66"/Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch8625835680#1829"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -c /Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch -o /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch.gch AAPLot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301715.858088
+e307301716.398324
+r1
+xProcessPCH
+x/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch.gch
+xAAPLot_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile AAPLot_Prefix.pch307301715#307301716#0(0"0(0#0#66"/Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch8627343296#2227"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/AAPLot.app.dSYM -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/AAPLot.app/_CodeSignature -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources -I../../build/Debug-iphoneos/usr/local/include -I../../build/Debug-iphoneos/AAPLot.app.dSYM/Contents/Resources/DWARF -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -c /Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch -o /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-dxmysrccjnrlvvaiktexcykbjnjr/AAPLot_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-ggxibobxfblnldabukxairdekmok/AAPLot_Prefix.pch.gch AAPLot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301694.076173
+e307301694.501148
+r1
+xProcessPCH
+x/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-ggxibobxfblnldabukxairdekmok/AAPLot_Prefix.pch.gch
+xAAPLot_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile AAPLot_Prefix.pch307301694#307301694#0(0"0(0#0#66"/Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch8618449248#1939"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I../../build/Debug-iphoneos -I../../build/Debug-iphoneos/AAPLot.app -I../../build/Debug-iphoneos/usr -I../../build/Debug-iphoneos/usr/local -I../../build/Debug-iphoneos/usr/local/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -c /Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch -o /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-ggxibobxfblnldabukxairdekmok/AAPLot_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision" /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision
+s307301250.726023
+e307301250.727949
+r1
+xProcessProductPackaging
+x/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision" ../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision307301250#307301250#0(0"0(0#0#111"/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision8622362176#448"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision" -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent
+s307301250.728062
+e307301250.736876
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent307301250#307301250#0(0"0(0#0#114"/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent8621544128#455"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent0#
+
+CTouch /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+s307301716.843259
+e307301716.845915
+r1
+xTouch
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+lSLF07#2@92"Touch /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app307301716#307301716#0(0"0(0#0#0"8630987072#289"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app0#
+

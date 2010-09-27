@@ -1,0 +1,621 @@
+TAAPLot
+v7
+r0
+t307301250.736938
+cCheck dependencies
+cCpResource ../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist Info.plist
+cCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib
+cCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib
+cCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib
+cCopyPlistFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPL.plist AAPL.plist
+cProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch AAPLot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o /Users/boris/workspace/core-plot/examples/AAPLot/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o /Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o /Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o /Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision" /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A56D600000000002573D0
+t1280988886
+s2454480
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision
+c000000004CA0C4A00000000000002F06
+t1285604512
+s12038
+
+N/Users/boris/workspace/core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a
+c000000004CA0D40100000000001DE348
+t1285608449
+s1958728
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent
+t1285608450
+s412
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLot.LinkFileList
+c000000004CA0D4010000000000000502
+t1285608449
+s1282
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o
+t1285608450
+s45456
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o
+t1285608450
+s10628
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o
+t1285608450
+s54912
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o
+t1285608450
+s34544
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o
+t1285608450
+s35480
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o
+t1285608450
+s7748
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o
+t1285608450
+s6464
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app.dSYM
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPL.plist
+t1285608449
+s6741
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot
+t2
+s0
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/FlipsideView.nib
+t1285608450
+s877
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist
+t1285608449
+s719
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/MainView.nib
+t1285608450
+s1065
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/MainWindow.nib
+t1285608450
+s1842
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/PkgInfo
+t1285608449
+s8
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist
+t1285608449
+s485
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision
+t1285608450
+s12038
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/AAPL.plist
+c000000004CA0CAB40000000000004F13
+t1285606068
+s20243
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch
+c000000004CA0CAB400000000000000C8
+t1285606068
+s200
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.h
+c000000004CA0CAB40000000000000084
+t1285606068
+s132
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m
+c000000004CA0CAB400000000000006A8
+t1285606068
+s1704
+i"APFinancialData.h"
+i"NSDateFormatterExtensions.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.h
+c000000004CA0CAB4000000000000060C
+t1285606068
+s1548
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m
+c000000004CA0CAB40000000000003199
+t1285606068
+s12697
+i"APYahooDataPuller.h"
+i"APFinancialData.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib
+c000000004CA0CAB400000000000035B4
+t1285606068
+s13748
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.h
+c000000004CA0CAB400000000000001DE
+t1285606068
+s478
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m
+c000000004CA0CAB40000000000000233
+t1285606068
+s563
+i"AAPLotAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.h
+c000000004CA0CAB400000000000000D3
+t1285606068
+s211
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m
+c000000004CA0CAB400000000000001BB
+t1285606068
+s443
+i"FlipsideView.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.h
+c000000004CA0CAB400000000000000F1
+t1285606068
+s241
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m
+c000000004CA0CAB40000000000000380
+t1285606068
+s896
+i"FlipsideViewController.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h
+c000000004CA0CAB400000000000001BA
+t1285606068
+s442
+i<UIKit/UIKit.h>
+i"APYahooDataPuller.h"
+i"CorePlot-CocoaTouch.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m
+c000000004CA0CAB400000000000026A1
+t1285606068
+s9889
+i"MainViewController.h"
+i"APYahooDataPuller.h"
+i"APFinancialData.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.h
+c000000004CA0CAB400000000000002FB
+t1285606068
+s763
+i<UIKit/UIKit.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m
+c000000004CA0CAB40000000000000F8E
+t1285606068
+s3982
+i"RootViewController.h"
+i"MainViewController.h"
+i"FlipsideViewController.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib
+c000000004CA0CAB4000000000000182B
+t1285606068
+s6187
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib
+c000000004CA0CAB40000000000002342
+t1285606068
+s9026
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.h
+c000000004CA0CAB4000000000000007C
+t1285606068
+s124
+i<Foundation/Foundation.h>
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m
+c000000004CA0CAB40000000000000129
+t1285606068
+s297
+i"NSDateFormatterExtensions.h"
+
+N/Users/boris/workspace/core-plot/examples/AAPLot/main.m
+c000000004CA0CAB400000000000000D8
+t1285606068
+s216
+i<UIKit/UIKit.h>
+
+N/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch
+t1285608450
+s9844272
+
+NInfo.plist
+c000000004CA0CAB40000000000000383
+t1285606068
+s899
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307301249#307301249#0(0"0(0#1#0"8622105824#0"0#
+
+CCodeSign /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+r0
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.490703
+e307301250.587882
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m307301250#307301250#0(0"0(0#0#76"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m8621939328#1980"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/AAPLotAppDelegate.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o /Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.588027
+e307301250.657743
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m307301250#307301250#0(0"0(0#0#66"/Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m8619275456#1968"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/APFinancialData.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APFinancialData.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o /Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.567460
+e307301250.725869
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m307301250#307301250#0(0"0(0#0#68"/Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m8618451072#1972"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/APYahooDataPuller.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/APYahooDataPuller.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.491469
+e307301250.555856
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m307301250#307301250#0(0"0(0#0#71"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m8621644896#1970"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideView.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideView.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.556005
+e307301250.648154
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m307301250#307301250#0(0"0(0#0#81"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m8618928096#1990"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/FlipsideViewController.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.492499
+e307301250.567327
+r0
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:2:
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h:4:32: error: CorePlot-CocoaTouch.h: No such file or directory
+oIn file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:2:
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h:10: error: cannot find protocol declaration for 'CPPlotDataSource'
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: In function '-[MainViewController viewDidLoad]':
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:42: warning: receiver 'CPXYGraph' is a forward class and corresponding @interface may not exist
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: 'CPTheme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: (Each undeclared identifier is reported only once
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: for each function it appears in.)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: 'theme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: 'kCPStocksTheme' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:44: warning: no '-applyTheme:' method found
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:44: warning: (Messages without a matching method signature
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:44: warning: will be assumed to return 'id' and accept
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:44: warning: '...' as arguments.)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:45: error: request for member 'frame' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:46: error: request for member 'paddingRight' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:47: error: request for member 'paddingLeft' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:48: error: request for member 'plotAreaFrame' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:49: error: request for member 'plotAreaFrame' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:50: error: 'CPLineStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:50: error: 'borderLineStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:51: error: 'CPColor' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:53: error: request for member 'plotAreaFrame' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:54: error: accessing unknown 'layer' component of a property
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:57: error: 'CPXYAxisSet' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:57: error: 'xyAxisSet' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:57: error: request for member 'axisSet' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:58: error: 'CPXYAxis' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:58: error: 'xAxis' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:60: error: 'CPAxisLabelingPolicyNone' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:62: error: 'yAxis' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:66: error: 'CPScatterPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:66: error: 'dataSourceLinePlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:66: error: request for member 'bounds' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:70: warning: no '-addPlot:' method found
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:72: error: 'areaColor' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:73: error: 'CPGradient' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:73: error: 'areaGradient' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:75: error: 'CPFill' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:75: error: 'areaGradientFill' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:77: warning: implicit declaration of function 'CPDecimalFromString'
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:80: error: 'whiteLineStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:83: error: 'CPTradingRangePlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:83: error: 'ohlcPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:83: error: request for member 'bounds' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:86: error: 'CPTextStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:86: error: 'whiteTextStyle' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:93: error: 'CPTradingRangePlotStyleOHLC' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:94: warning: no '-addPlot:' method found
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:97: error: 'CPXYPlotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:97: error: 'volumePlotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:99: warning: no '-addPlotSpace:' method found
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:102: error: 'CPBarPlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:102: error: 'volumePlot' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:108: warning: no '-addPlot:toPlotSpace:' method found
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: At top level:
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:129: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:133: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: In function '-[MainViewController numberForPlot:field:recordIndex:]':
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:135: error: request for member 'identifier' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:136: error: 'CPScatterPlotFieldX' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:139: error: 'CPScatterPlotFieldY' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:147: error: request for member 'identifier' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:163: error: 'CPTradingRangePlotFieldX' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:166: error: 'CPTradingRangePlotFieldClose' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:169: error: 'CPTradingRangePlotFieldHigh' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:172: error: 'CPTradingRangePlotFieldLow' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:175: error: 'CPTradingRangePlotFieldOpen' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: At top level:
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:183: error: expected ')' before 'CPLayer'
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:183: error: expected ')' before 'CPPlot'
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: In function '-[MainViewController dataLabelForPlot:recordIndex:]':
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:185: error: request for member 'identifier' in something not a structure or union
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:193: warning: control reaches end of non-void function
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: In function '-[MainViewController dataPullerDidFinishFetch:]':
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:197: error: 'CPXYPlotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:197: error: 'plotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:197: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:198: error: 'volumePlotSpace' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:198: error: expected expression before ')' token
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:213: error: 'CPPlotRange' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:213: warning: implicit declaration of function 'CPDecimalFromFloat'
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:213: warning: implicit declaration of function 'CPDecimalFromInteger'
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:216: error: 'CPXYAxisSet' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:216: error: 'axisSet' undeclared (first use in this function)
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:216: error: expected expression before ')' token
+lSLF07#2@85"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307301250#307301250#0(12292"In file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:2:/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h:4:32: error: CorePlot-CocoaTouch.h: No such file or directoryIn file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:2:/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h:10: error: cannot find protocol declaration for 'CPPlotDataSource'/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: In function '-[MainViewController viewDidLoad]':/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:42: warning: receiver 'CPXYGraph' is a forward class and corresponding @interface may not exist/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: 'CPTheme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: (Each undeclared identifier is reported only once/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: for each function it appears in.)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: 'theme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:43: error: 'kCPStocksTheme' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:44: warning: no '-applyTheme:' method found/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:44: warning: (Messages without a matching method signature/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:44: warning: will be assumed to return 'id' and accept/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:44: warning: '...' as arguments.)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:45: error: request for member 'frame' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:46: error: request for member 'paddingRight' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:47: error: request for member 'paddingLeft' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:48: error: request for member 'plotAreaFrame' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:49: error: request for member 'plotAreaFrame' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:50: error: 'CPLineStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:50: error: 'borderLineStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:51: error: 'CPColor' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:53: error: request for member 'plotAreaFrame' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:54: error: accessing unknown 'layer' component of a property/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:57: error: 'CPXYAxisSet' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:57: error: 'xyAxisSet' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:57: error: request for member 'axisSet' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:58: error: 'CPXYAxis' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:58: error: 'xAxis' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:60: error: 'CPAxisLabelingPolicyNone' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:62: error: 'yAxis' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:66: error: 'CPScatterPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:66: error: 'dataSourceLinePlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:66: error: request for member 'bounds' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:70: warning: no '-addPlot:' method found/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:72: error: 'areaColor' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:73: error: 'CPGradient' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:73: error: 'areaGradient' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:75: error: 'CPFill' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:75: error: 'areaGradientFill' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:77: warning: implicit declaration of function 'CPDecimalFromString'/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:80: error: 'whiteLineStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:83: error: 'CPTradingRangePlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:83: error: 'ohlcPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:83: error: request for member 'bounds' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:86: error: 'CPTextStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:86: error: 'whiteTextStyle' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:93: error: 'CPTradingRangePlotStyleOHLC' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:94: warning: no '-addPlot:' method found/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:97: error: 'CPXYPlotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:97: error: 'volumePlotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:99: warning: no '-addPlotSpace:' method found/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:102: error: 'CPBarPlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:102: error: 'volumePlot' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:108: warning: no '-addPlot:toPlotSpace:' method found/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: At top level:/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:129: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:133: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: In function '-[MainViewController numberForPlot:field:recordIndex:]':/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:135: error: request for member 'identifier' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:136: error: 'CPScatterPlotFieldX' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:139: error: 'CPScatterPlotFieldY' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:147: error: request for member 'identifier' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:163: error: 'CPTradingRangePlotFieldX' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:166: error: 'CPTradingRangePlotFieldClose' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:169: error: 'CPTradingRangePlotFieldHigh' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:172: error: 'CPTradingRangePlotFieldLow' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:175: error: 'CPTradingRangePlotFieldOpen' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: At top level:/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:183: error: expected ')' before 'CPLayer'/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:183: error: expected ')' before 'CPPlot'/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: In function '-[MainViewController dataLabelForPlot:recordIndex:]':/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:185: error: request for member 'identifier' in something not a structure or union/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:193: warning: control reaches end of non-void function/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m: In function '-[MainViewController dataPullerDidFinishFetch:]':/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:197: error: 'CPXYPlotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:197: error: 'plotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:197: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:198: error: 'volumePlotSpace' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:198: error: expected expression before ')' token/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:213: error: 'CPPlotRange' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:213: warning: implicit declaration of function 'CPDecimalFromFloat'/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:213: warning: implicit declaration of function 'CPDecimalFromInteger'/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:216: error: 'CPXYAxisSet' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:216: error: 'axisSet' undeclared (first use in this function)/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m:216: error: expected expression before ')' token77(4@48"CorePlot-CocoaTouch.h: No such file or directory307301250#103#140#2(7@99"In file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307301250#18446744073709551615#0#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#2#0#2#0#0"0(13@129"CorePlot-CocoaTouch.h: No such file or directory in /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307301250#18446744073709551615#0#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307298868#4#0#4#0#0"0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307298868#4#0#4#0#28"*: No such file or directory0(4@55"Cannot find protocol declaration for 'CPPlotDataSource'307301250#346#145#2(7@99"In file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307301250#18446744073709551615#0#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#2#0#2#0#0"0(13@136"Cannot find protocol declaration for 'CPPlotDataSource' in /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307301250#18446744073709551615#0#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307298868#10#0#10#0#0"0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307298868#10#0#10#0#0"0(22@82"Receiver 'CPXYGraph' is a forward class and corresponding @interface may not exist307301250#619#174#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#42#0#42#0#0"0(4@49"'CPTheme' undeclared (first use in this function)307301250#793#139#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(4@47"'theme' undeclared (first use in this function)307301250#1194#137#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(4@56"'kCPStocksTheme' undeclared (first use in this function)307301250#1331#146#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#43#0#43#0#43"'*' undeclared (first use in this function)0(22@30"No '-applyTheme:' method found307301250#1477#122#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#44#0#44#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)307301250#1599#137#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#44#0#44#0#0"0(4@64"Request for member 'frame' in something not a structure or union307301250#1981#154#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#45#0#45#0#0"0(4@71"Request for member 'paddingRight' in something not a structure or union307301250#2135#161#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#46#0#46#0#0"0(4@70"Request for member 'paddingLeft' in something not a structure or union307301250#2296#160#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#47#0#47#0#0"0(4@72"Request for member 'plotAreaFrame' in something not a structure or union307301250#2456#162#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#48#0#48#0#0"0(4@72"Request for member 'plotAreaFrame' in something not a structure or union307301250#2618#162#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#49#0#49#0#0"0(4@53"'CPLineStyle' undeclared (first use in this function)307301250#2780#143#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#50#0#50#0#43"'*' undeclared (first use in this function)0(4@57"'borderLineStyle' undeclared (first use in this function)307301250#2923#147#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#50#0#50#0#43"'*' undeclared (first use in this function)0(4@49"'CPColor' undeclared (first use in this function)307301250#3070#139#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#51#0#51#0#43"'*' undeclared (first use in this function)0(4@72"Request for member 'plotAreaFrame' in something not a structure or union307301250#3209#162#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#53#0#53#0#0"0(4@49"Accessing unknown 'layer' component of a property307301250#3371#139#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#54#0#54#0#0"0(4@53"'CPXYAxisSet' undeclared (first use in this function)307301250#3510#143#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#57#0#57#0#43"'*' undeclared (first use in this function)0(4@51"'xyAxisSet' undeclared (first use in this function)307301250#3653#141#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#57#0#57#0#43"'*' undeclared (first use in this function)0(4@66"Request for member 'axisSet' in something not a structure or union307301250#3794#156#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#57#0#57#0#0"0(4@50"'CPXYAxis' undeclared (first use in this function)307301250#3950#140#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#58#0#58#0#43"'*' undeclared (first use in this function)0(4@47"'xAxis' undeclared (first use in this function)307301250#4090#137#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#58#0#58#0#43"'*' undeclared (first use in this function)0(4@66"'CPAxisLabelingPolicyNone' undeclared (first use in this function)307301250#4227#156#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#60#0#60#0#43"'*' undeclared (first use in this function)0(4@47"'yAxis' undeclared (first use in this function)307301250#4383#137#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#62#0#62#0#43"'*' undeclared (first use in this function)0(4@55"'CPScatterPlot' undeclared (first use in this function)307301250#4520#145#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#66#0#66#0#43"'*' undeclared (first use in this function)0(4@60"'dataSourceLinePlot' undeclared (first use in this function)307301250#4665#150#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#66#0#66#0#43"'*' undeclared (first use in this function)0(4@65"Request for member 'bounds' in something not a structure or union307301250#4815#155#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#66#0#66#0#0"0(22@27"No '-addPlot:' method found307301250#4970#119#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#70#0#70#0#19"no '*' method found0(4@51"'areaColor' undeclared (first use in this function)307301250#5089#141#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#72#0#72#0#43"'*' undeclared (first use in this function)0(4@52"'CPGradient' undeclared (first use in this function)307301250#5230#142#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#73#0#73#0#43"'*' undeclared (first use in this function)0(4@54"'areaGradient' undeclared (first use in this function)307301250#5372#144#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#73#0#73#0#43"'*' undeclared (first use in this function)0(4@48"'CPFill' undeclared (first use in this function)307301250#5516#138#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#75#0#75#0#43"'*' undeclared (first use in this function)0(4@58"'areaGradientFill' undeclared (first use in this function)307301250#5654#148#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#75#0#75#0#43"'*' undeclared (first use in this function)0(22@54"Implicit declaration of function 'CPDecimalFromString'307301250#5802#146#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#77#0#77#0#36"implicit declaration of function '*'0(4@56"'whiteLineStyle' undeclared (first use in this function)307301250#5948#146#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#80#0#80#0#43"'*' undeclared (first use in this function)0(4@60"'CPTradingRangePlot' undeclared (first use in this function)307301250#6094#150#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#83#0#83#0#43"'*' undeclared (first use in this function)0(4@50"'ohlcPlot' undeclared (first use in this function)307301250#6244#140#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#83#0#83#0#43"'*' undeclared (first use in this function)0(4@65"Request for member 'bounds' in something not a structure or union307301250#6384#155#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#83#0#83#0#0"0(4@53"'CPTextStyle' undeclared (first use in this function)307301250#6539#143#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#86#0#86#0#43"'*' undeclared (first use in this function)0(4@56"'whiteTextStyle' undeclared (first use in this function)307301250#6682#146#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#86#0#86#0#43"'*' undeclared (first use in this function)0(4@69"'CPTradingRangePlotStyleOHLC' undeclared (first use in this function)307301250#6828#159#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#93#0#93#0#43"'*' undeclared (first use in this function)0(22@27"No '-addPlot:' method found307301250#6987#119#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#94#0#94#0#19"no '*' method found0(4@55"'CPXYPlotSpace' undeclared (first use in this function)307301250#7106#145#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#97#0#97#0#43"'*' undeclared (first use in this function)0(4@57"'volumePlotSpace' undeclared (first use in this function)307301250#7251#147#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#97#0#97#0#43"'*' undeclared (first use in this function)0(22@32"No '-addPlotSpace:' method found307301250#7398#124#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#99#0#99#0#19"no '*' method found0(4@51"'CPBarPlot' undeclared (first use in this function)307301250#7522#142#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#102#0#102#0#43"'*' undeclared (first use in this function)0(4@52"'volumePlot' undeclared (first use in this function)307301250#7664#143#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#102#0#102#0#43"'*' undeclared (first use in this function)0(22@39"No '-addPlot:toPlotSpace:' method found307301250#7807#132#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#108#0#108#0#19"no '*' method found0(23@13"At top level:307301250#7939#93#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#0#0#0#0#0"0(4@28"Expected ')' before 'CPPlot'307301250#8032#119#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#129#0#129#0#19"expected * before *0(4@28"Expected ')' before 'CPPlot'307301250#8151#119#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#133#0#133#0#19"expected * before *0(4@69"Request for member 'identifier' in something not a structure or union307301250#8419#160#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#135#0#135#0#0"0(4@61"'CPScatterPlotFieldX' undeclared (first use in this function)307301250#8579#152#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#136#0#136#0#43"'*' undeclared (first use in this function)0(4@61"'CPScatterPlotFieldY' undeclared (first use in this function)307301250#8731#152#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#139#0#139#0#43"'*' undeclared (first use in this function)0(4@69"Request for member 'identifier' in something not a structure or union307301250#8883#160#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#147#0#147#0#0"0(4@66"'CPTradingRangePlotFieldX' undeclared (first use in this function)307301250#9043#157#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#163#0#163#0#43"'*' undeclared (first use in this function)0(4@70"'CPTradingRangePlotFieldClose' undeclared (first use in this function)307301250#9200#161#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#166#0#166#0#43"'*' undeclared (first use in this function)0(4@69"'CPTradingRangePlotFieldHigh' undeclared (first use in this function)307301250#9361#160#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#169#0#169#0#43"'*' undeclared (first use in this function)0(4@68"'CPTradingRangePlotFieldLow' undeclared (first use in this function)307301250#9521#159#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#172#0#172#0#43"'*' undeclared (first use in this function)0(4@69"'CPTradingRangePlotFieldOpen' undeclared (first use in this function)307301250#9680#160#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#175#0#175#0#43"'*' undeclared (first use in this function)0(23@13"At top level:307301250#9840#93#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#0#0#0#0#0"0(4@29"Expected ')' before 'CPLayer'307301250#9933#120#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#183#0#183#0#19"expected * before *0(4@28"Expected ')' before 'CPPlot'307301250#10053#119#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#183#0#183#0#19"expected * before *0(4@69"Request for member 'identifier' in something not a structure or union307301250#10318#160#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#185#0#185#0#0"0(22@40"Control reaches end of non-void function307301250#10478#133#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#193#0#193#0#40"control reaches end of non-void function0(4@55"'CPXYPlotSpace' undeclared (first use in this function)307301250#10753#146#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#197#0#197#0#43"'*' undeclared (first use in this function)0(4@51"'plotSpace' undeclared (first use in this function)307301250#10899#142#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#197#0#197#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301250#11041#127#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#197#0#197#0#19"expected * before *0(4@57"'volumePlotSpace' undeclared (first use in this function)307301250#11168#148#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#198#0#198#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301250#11316#127#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#198#0#198#0#19"expected * before *0(4@53"'CPPlotRange' undeclared (first use in this function)307301250#11443#144#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#213#0#213#0#43"'*' undeclared (first use in this function)0(22@53"Implicit declaration of function 'CPDecimalFromFloat'307301250#11587#146#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#213#0#213#0#36"implicit declaration of function '*'0(22@55"Implicit declaration of function 'CPDecimalFromInteger'307301250#11733#148#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#213#0#213#0#36"implicit declaration of function '*'0(4@53"'CPXYAxisSet' undeclared (first use in this function)307301250#11881#144#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#216#0#216#0#43"'*' undeclared (first use in this function)0(4@49"'axisSet' undeclared (first use in this function)307301250#12025#140#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#216#0#216#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token307301250#12165#127#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m307298868#216#0#216#0#19"expected * before *0(0#0#77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m8621331424#1982"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/MainViewController.o1#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o /Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.608914
+e307301250.663644
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m307301250#307301250#0(0"0(0#0#76"/Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m8618403424#1988"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/NSDateFormatterExtensions.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/NSDateFormatterExtensions.o0#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.548785
+e307301250.608785
+r0
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m:10:
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h:4:32: error: CorePlot-CocoaTouch.h: No such file or directory
+oIn file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m:10:
+o/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h:10: error: cannot find protocol declaration for 'CPPlotDataSource'
+lSLF07#2@85"Compile /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m307301250#307301250#0(493"In file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m:10:/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h:4:32: error: CorePlot-CocoaTouch.h: No such file or directoryIn file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m:10:/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h:10: error: cannot find protocol declaration for 'CPPlotDataSource'2(4@48"CorePlot-CocoaTouch.h: No such file or directory307301250#104#140#2(7@99"In file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m307301250#18446744073709551615#0#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m307298868#10#0#10#0#0"0(13@129"CorePlot-CocoaTouch.h: No such file or directory in /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307301250#18446744073709551615#0#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307298868#4#0#4#0#0"0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307298868#4#0#4#0#28"*: No such file or directory0(4@55"Cannot find protocol declaration for 'CPPlotDataSource'307301250#348#145#2(7@99"In file included from /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m307301250#18446744073709551615#0#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m307298868#10#0#10#0#0"0(13@136"Cannot find protocol declaration for 'CPPlotDataSource' in /Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307301250#18446744073709551615#0#0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307298868#10#0#10#0#0"0(6@77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/MainViewController.h307298868#10#0#10#0#0"0(0#0#77"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m8619118592#1982"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/Classes/RootViewController.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/RootViewController.o1#
+
+CCompileC ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o /Users/boris/workspace/core-plot/examples/AAPLot/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.489767
+e307301250.548404
+r1
+xCompileC
+x../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o
+x/Users/boris/workspace/core-plot/examples/AAPLot/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/boris/workspace/core-plot/examples/AAPLot/main.m307301250#307301250#0(0"0(0#0#55"/Users/boris/workspace/core-plot/examples/AAPLot/main.m8622514176#1946"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -include /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch -c /Users/boris/workspace/core-plot/examples/AAPLot/main.m -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib
+s307301249.684674
+e307301250.083728
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib
+lSLF07#2@36"CompileXIB Classes/../MainWindow.xib307301249#307301250#0(0"0(0#0#74"/Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib8621665504#588"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/MainWindow.nib /Users/boris/workspace/core-plot/examples/AAPLot/Classes/../MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib
+s307301249.683623
+e307301250.042664
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib307301249#307301250#0(0"0(0#0#65"/Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib8622318240#581"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/FlipsideView.nib /Users/boris/workspace/core-plot/examples/AAPLot/FlipsideView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib
+s307301249.684176
+e307301250.047382
+r1
+xCompileXIB
+x/Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib307301249#307301250#0(0"0(0#0#61"/Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib8621924992#573"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/MainView.nib /Users/boris/workspace/core-plot/examples/AAPLot/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCopyPlistFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPL.plist AAPL.plist
+s307301249.685194
+e307301249.711879
+r1
+xCopyPlistFile
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPL.plist
+xAAPL.plist
+lSLF07#2@15"Copy AAPL.plist307301249#307301249#0(0"0(0#0#59"/Users/boris/workspace/core-plot/examples/AAPLot/AAPL.plist8621539072#396"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 AAPL.plist --outdir /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app0#
+
+CCpResource ../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s307301249.678652
+e307301249.683573
+r1
+xCpResource
+x../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist307301249#307301249#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8626785280#505"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app0#
+
+CGenerateDSYMFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app.dSYM /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot
+r0
+
+CLd /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/AAPLot normal armv6
+r0
+
+CProcessInfoPlistFile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist Info.plist
+s307301249.679421
+e307301249.682717
+r1
+xProcessInfoPlistFile
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist307301249#307301249#0(0"0(0#0#59"/Users/boris/workspace/core-plot/examples/AAPLot/Info.plist8623250400#609"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/ResourceRules.plist -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/Info.plist0#
+
+CProcessPCH /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch AAPLot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s307301250.083845
+e307301250.489524
+r1
+xProcessPCH
+x/var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch
+xAAPLot_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile AAPLot_Prefix.pch307301250#307301250#0(0"0(0#0#66"/Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch8625835680#1829"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-generated-files.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot-project-headers.hmap -F/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/include -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources/armv6 -I/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/DerivedSources -c /Users/boris/workspace/core-plot/examples/AAPLot/AAPLot_Prefix.pch -o /var/folders/Vj/VjiqI-E9FFe5Bomw0JwbEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AAPLot_Prefix-cxsszdpwpjtkenhhbbrxwpdutuin/AAPLot_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision" /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision
+s307301250.726023
+e307301250.727949
+r1
+xProcessProductPackaging
+x/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision" ../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision307301250#307301250#0(0"0(0#0#111"/Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision8622362176#448"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/boris/Library/MobileDevice/Provisioning Profiles/39E90307-FD96-4737-BE6D-0417699CC34C.mobileprovision" -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent
+s307301250.728062
+e307301250.736876
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist ../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent307301250#307301250#0(0"0(0#0#114"/Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent8621544128#455"    cd /Users/boris/workspace/core-plot/examples/AAPLot    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/boris/workspace/core-plot/examples/AAPLot/../../build/AAPLot.build/Debug-iphoneos/AAPLot.build/AAPLot.xcent0#
+
+CTouch /Users/boris/workspace/core-plot/examples/AAPLot/../../build/Debug-iphoneos/AAPLot.app
+r0
+
