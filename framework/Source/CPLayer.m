@@ -129,6 +129,7 @@
 		masksToBorder = NO;
 		layoutManager = nil;
 		renderingRecursively = NO;
+		graph = nil;
 		outerBorderPath = NULL;
 		innerBorderPath = NULL;
 
@@ -155,6 +156,25 @@
 -(id)init
 {
 	return [self initWithFrame:CGRectZero];
+}
+
+-(id)initWithLayer:(id)layer
+{
+	if ( self = [super initWithLayer:layer] ) {
+		CPLayer *theLayer = (CPLayer *)layer;
+		
+		paddingLeft = theLayer->paddingLeft;
+		paddingTop = theLayer->paddingTop;
+		paddingRight = theLayer->paddingRight;
+		paddingBottom = theLayer->paddingBottom;
+		masksToBorder = theLayer->masksToBorder;
+		layoutManager = [theLayer->layoutManager retain];
+		renderingRecursively = theLayer->renderingRecursively;
+		graph = theLayer->graph;
+		outerBorderPath = CGPathRetain(theLayer->outerBorderPath);
+		innerBorderPath = CGPathRetain(theLayer->innerBorderPath);
+	}
+	return self;
 }
 
 -(void)dealloc
@@ -547,46 +567,18 @@
 	}
 }
 
-#pragma mark -
-#pragma mark Bindings
-
-static NSString * const BindingsNotSupportedString = @"Bindings are not supported on the iPhone in Core Plot";
-
-+(void)exposeBinding:(NSString *)binding 
+-(void)setNeedsLayout
 {
-#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
-#else
-    [super exposeBinding:binding];
-#endif
+    [super setNeedsLayout];
+    if ( self.graph ) [[NSNotificationCenter defaultCenter] postNotificationName:CPGraphNeedsRedrawNotification object:self.graph];
 }
 
--(void)bind:(NSString *)binding toObject:(id)observable withKeyPath:(NSString *)keyPath options:(NSDictionary *)options
+-(void)setNeedsDisplay
 {
-#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
-    [NSException raise:CPException format:@"%@", BindingsNotSupportedString];
-#else
-    [super bind:binding toObject:observable withKeyPath:keyPath options:options];
-#endif
+    [super setNeedsDisplay];
+    if ( self.graph ) [[NSNotificationCenter defaultCenter] postNotificationName:CPGraphNeedsRedrawNotification object:self.graph];
 }
 
--(void)unbind:(NSString *)binding
-{
-#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
-    [NSException raise:CPException format:@"%@", BindingsNotSupportedString];
-#else
-    [super unbind:binding];
-#endif
-}
-
--(Class)valueClassForBinding:(NSString *)binding
-{
-#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
-    [NSException raise:CPException format:@"%@", BindingsNotSupportedString];
-    return Nil;
-#else
-    return [super valueClassForBinding:binding];
-#endif
-}
 
 #pragma mark -
 #pragma mark Accessors

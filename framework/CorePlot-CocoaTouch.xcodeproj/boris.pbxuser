@@ -5,6 +5,7 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
+		activeSDKPreference = iphonesimulator4.1;
 		activeTarget = BC9B83460FB8A0A40035D8DA /* CorePlot-CocoaTouch */;
 		codeSenseManager = A1E76EBD125119C000DCB62F /* Code sense */;
 		perUserDictionary = {
@@ -52,8 +53,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 307304866;
-			PBXWorkspaceStateSaveDate = 307304866;
+			PBXPerProjectTemplateStateSaveDate = 309213753;
+			PBXWorkspaceStateSaveDate = 309213753;
 		};
 		sourceControlManager = A1E76EBC125119C000DCB62F /* Source Control */;
 		userBuildSettings = {

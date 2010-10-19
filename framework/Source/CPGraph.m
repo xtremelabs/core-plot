@@ -12,6 +12,8 @@
 #import "CPLayerAnnotation.h"
 #import "CPTextLayer.h"
 
+NSString * const CPGraphNeedsRedrawNotification = @"CPGraphNeedsRedrawNotification";
+
 ///	@cond
 @interface CPGraph()
 
@@ -124,6 +126,23 @@
 		titleAnnotation = nil;
 
 		self.needsDisplayOnBoundsChange = YES;
+	}
+	return self;
+}
+
+-(id)initWithLayer:(id)layer
+{
+	if ( self = [super initWithLayer:layer] ) {
+		CPGraph *theLayer = (CPGraph *)layer;
+		
+		plotAreaFrame = [theLayer->plotAreaFrame retain];
+		plots = [theLayer->plots retain];
+		plotSpaces = [theLayer->plotSpaces retain];
+		title = [theLayer->title retain];
+		titlePlotAreaFrameAnchor = theLayer->titlePlotAreaFrameAnchor;
+		titleTextStyle = [theLayer->titleTextStyle retain];
+		titleDisplacement = theLayer->titleDisplacement;
+		titleAnnotation = [theLayer->titleAnnotation retain];
 	}
 	return self;
 }
